@@ -17,7 +17,7 @@ const contenido = [
             "Video performance y video instalación",
             "Lugar de realización: Comuna de Aranno, Cantón Ticino, Suiza. Año 2023",
             "Este es el registro de la video-performance titulada “Teatro de Máquinas” se desarrolló en el marco de la muestra “Malcantone 1900, bajo la mirada de un emigrante”, organizada por el Museo de Curio (Suiza) junto con su director Damiano Robbiani, gracias a la colaboración de la Fundación “Maglio del Malcantone” y basado en la investigación de la historiadora Cristina Boixadós (Argentina)",
-            "La video-instalación se realizará en septiembre 2024 en el Maglio del Malcantone, Suiza."
+            "La video-instalación se realizará en septiembre de 2024 en el Maglio del Malcantone, Suiza."
         ],
         año: ["2023","2024"],
     },
@@ -113,10 +113,6 @@ const contenido = [
         categoria: "personales",
         rubro: "cine",
         link: [
-            {
-                ref: "vimeo",
-                url: "https://vimeo.com/showcase/10394917",
-            },
             {
                 ref: "Facebook",
                 url: "https://www.facebook.com/ungigantecae/",
@@ -328,10 +324,13 @@ const contenido = [
         video: [
             '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/248171969?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Laboratorio de Investigación y Creatividad - 2017"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
         ],
+        link: [{
+            ref: "Nota: ( me falta el link)",
+            url: "",
+        }],
         texto: [
             "María Fabro, Milagros Arias, Lucy Rya en el Bachillerato popular de Parque Patricios",
             "El Laboratorio de Investigación y Creatividad es un área dentro del Bachillerato Popular de Parque Patricios. Durante el 2017 realizamos la experiencia con estudiantes de segundo y tercer año.  El Laboratorio brinda herramientas para el conocimiento territorial a la vida. Hay autores que hablan del uso libre del mundo “abarcar la vida como un todo y producir espacios que son políticos, nunca neutrales”. En ese sentido lo que precisamos es que el aprendizaje se viva como experiencia, no buscando confirmar verdades preestablecidas. Construir una política y pedagogía de lo sensible donde el arte  habilite la intuición, la investigación, la experimentación, la materialización de proyectos, la autogestión. La propuesta se centra en las aptitudes, habilidades, potenciaciones que nos interesa habilitar en las personas y no tanto en los contenidos a incorporar. Potenciar al artista como agente social. El arte dialoga con el contexto.",
-            "Nota: ( me falta el link)",
         ],
         año: "2018",
     },
@@ -347,7 +346,12 @@ const contenido = [
         link: [{
             ref: "Revistas",
             url: "https://issuu.com/feriasubjetiva",
-        }],
+            },
+            {
+               ref: "Nota: ( me falta el link)",
+               url: "",
+            },
+        ],
         texto: [
             "La propuesta desde el Laboratorio, fue crear un proyecto que se pueda materializar colectivamente y así fue como surgió la idea de darle continuidad a una revista llevada adelante por Paula Domínguez y Lucy Rya, que había comenzado en el año 2015, desde el área de “Letras”. Luego en el 2016 sumándose el área de “Trabajo, Autogestión y Economía social y solidaria”. Y a partir del 2017 se convirtió en un proyecto llevado adelante por “El Laboratorio de Investigación y Creatividad” que renovó la revista y la conectó con el territorio. Por un lado, los textos se trabajan con temáticas transversales a todas las áreas del bachillerato. Pero además comenzamos a realizar un festival, que dimos en llamar “Festival subjetivo” en donde presentamos la revista a la comunidad, invitando a los vecinos y amigos a compartir una jornada en donde participaron distintos artistas y compartimos comida, música, lecturas y feria. Se convirtió en una herramienta para abrirnos a la comunidad circundante, el barrio, para comunicar nuestros pensamientos y para escuchar las necesidades e ideas, generando intercambio y retroalimentación. Cada número se centró en una temática: ",
             "N1: La palabra, julio 2016",
@@ -356,7 +360,6 @@ const contenido = [
             "N4: Identidad, julio 2017",
             "N5: Cuatro años de bahi, junio 2018",
             "N6: “Feria subjetiva” Periódico",
-            "Nota: ( me falta el link)",
             "Apoyo: Fondo Nacional de las Artes",
             ],
         año: ["2016", "2018"],
@@ -416,7 +419,7 @@ const contenido = [
         id: "TERRITORIOS DEL CANTO", 
         categoria: "apedido",
         img: ["./img/7/LUCI2406.jpg"],
-        texto: ["Recital de cantoras de pueblos originarios en el Auditorio Nacional “Ballena Azul” Centro Cultural Kirchner para el 8M Movemos el mundo.","Ilustraciones y arte para las visuales proyectadas en el recital   Buenos Aires"],
+        texto: ["Recital de cantoras de pueblos originarios en el Auditorio Nacional “Ballena Azul” Centro Cultural Kirchner para el 8M Movemos el mundo.","Ilustraciones y arte para las visuales proyectadas en el recital Buenos Aires"],
         año: "2023",
     },
     {
