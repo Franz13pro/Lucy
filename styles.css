@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Dosis";
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    align-items: center;
+    border-bottom: 1px black solid;
+}
+
+nav ul {
+    flex: 1;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+
+}
+
+main ul {
+    list-style-type: none;
+}
+
+.item {
+    display: none;
+
+}
+
+.item[mostrar] {
+    display: block;
+
+}
+
+.contenedor {
+    border-bottom: 1px black solid;
+}
