@@ -10,11 +10,27 @@ const renderItem = (e) => { // defino la renderización de items del listado
         const contenidoItem = contenido.find(el => el.id===itemSeleccionado.firstElementChild.innerText) // encuentro el contenido correspondiente a lo que se quiere mostrar
         const divItem = document.createElement("div"); // const un div
         divItem.classList.add("item"); // le doy clase item
-        const img = document.createElement("img"); // const img
-        // const video = document.createElement("iframe"); // const iframe
-        // console.log(itemSeleccionado.firstElementChild.innerText)
         
-        // console.log(contenidoItem)
+        if (contenidoItem.img) { // agrego imágenes, si hay
+            const divImg = document.createElement("div");
+            contenidoItem.img.forEach(e => {
+                const img = document.createElement("img");
+                img.src = e;
+                img.classList.add("responsive");
+                divImg.appendChild(img);
+            });
+            divItem.appendChild(divImg);
+        }
+        const img = document.createElement("img"); // const img
+        
+        if (contenidoItem.video) { // agrego videos, si hay
+            contenidoItem.video.forEach(video => {
+                const divVideo = document.createElement("div")
+                divVideo.innerHTML = video
+                divItem.appendChild(divVideo)
+            });
+        }
+
         if (contenidoItem.texto) {
             const divTexto = document.createElement("div"); // creo una div de texto
             if (typeof(contenidoItem.texto) === "object") {

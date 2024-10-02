@@ -25,129 +25,78 @@ const contenido = [
         id: "VADO IN AMERICA",
         categoria: "personales",
         rubro: "cine",
-        texto: "Viajar para huir, viajar para buscar, viajar para abrir, viajar para morir.  En Argentina se recupera una colección antigua de fotos. En Suiza se encuentran las piezas que faltaban ¿Son fotografías o son espejos? Una historiadora investiga, la película imagina.",
+        texto: [
+            "Película no ficción",
+            "No ficción, 90 minutos.",
+            "En Argentina rescatan de la basura fotos de finales del siglo XIX que pertenecieron a inmigrantes suizos. Las imágenes viajan a través de territorios, guerras, movimientos humanos, entre América y Europa, en medio de la invención de un Estado nación.",
+            "Coproducción: Argentina, Suiza, Italia",
+            "Super8 y digital.",
+            "En etapa de montaje y postproducción.",
+            "Clínica de guión con Gustavo Fontán.",
+            "Producción:",
+            "elojoylaoreja (Argentina)",
+            "PicFilm (Suiza)",
+            "Start (Italia)",
+            "Apoyos:",
+            "INCAA - Vía Digital (Argentina)",
+            "Beca Fondo Nacional de las Artes (Argentina)",
+            "RSI, Radio Televisión Suiza (Suiza)",
+            "Swiss Film Commission (Suiza)",
+            "Museo del Malcantone, Curio (Suiza)",
+            "Protagonistas:",
+            "Cristina Boixadós",
+            "Paolo Righetti",
+            "Conversaciones en orden de aparición:",
+            "Analía Righetti",
+            "Ruth Rivas",
+            "Malvina González Lanfir",
+            "Ana Sofía Maizón",
+            "Adriano Righetti",
+            "Guión y dirección:",
+            "Lucy Rya",
+            "Investigación",
+            "Cristina Boixadós",
+            "Producción ejecutiva:",
+            "Ana Apontes",
+            "Coproductor:",
+            "Picfilm",
+            "Nicola Genni",
+            "Una coproducción:",
+            "RSI Radiotelevisione svizzera",
+            "Alessandro Marcionni",
+            "Montaje:",
+            "Mario Bocchicchio",
+            "Diseño de Sonido:",
+            "Andre Riera",
+            "Mezcla:",
+            "Riccardo Studer",
+            "Asistente integral:",
+            "Federico Robles",
+            "Músico:",
+            "Sergio Lavia",
+            ],
         año: "2024",
         link: [{
             ref: "Medios",
             url: "https://ticinofilmcommission.ch/en/article/2413/quelle-fotografie-d-altri-tempi-che-dall-argentina-ci-portano-in-malcantone",
-        }], 
-// ficha: ´Película no ficción
-// No ficción, 90 minutos.
-
-// Argentina, Suiza, Italia
-// Super8 y digital.
-// En etapa de montaje y postproducción. 
-// Clínica de guion con Gustavo Fontán. 
-
-// Productoras: PicFilm, Suiza. Ana Apontes y  elojoylaoreja, Argentina.
-
-// Apoyos:
-// INCAA - Vía Digital (Argentina)
-// Beca Fondo Nacional de las Artes (Argentina)
-// RSI, Radio Televisión Suiza (Suiza)
-// Swiss Film Commission (Suiza)
-// Museo del Malcantone, Curio (Suiza)
-
-// Protagonistas:
-// Cristina Boixadós
-// Paolo Righetti
-
-// Conversaciones en orden de aparición:
-// Analía Righetti
-// Ruth Rivas
-// Malvina González Lanfir
-// Ana Sofía Maizón
-// Adriano Righetti
-
-// Equipo técnico Argentina:
-// Guión y dirección 
-// Lucy Rya
-
-// Investigación
-// Cristina Boixadós
-
-// Producción ejecutiva
-// Ana Apontes
-
-// Montaje 
-// Mario Bocchicchio
-
-// Diseño de Sonido
-// Andre Riera
-
-// Asistente integral 
-// Federico Robles
-
-// Músico
-// Sergio Lavia
-
-// Df y Camarógrafas en Argentina
-// Milagros Arias
-// Ezequiel Salinas
-// Lucy Rya
-
-// Asistente de foto
-// Octavio Bertone
-
-// Sonido directo en Argentina
-// Guido Toro
-// Federico Robles
-
-// Animación y Gráfica
-// Sebastián García
-
-// Transcripción y Traducciones al inglés
-// Francisco Fernández Boixadós
-
-// Foto fija en Argentina
-// Francisco Dangelo
-
-// Revisión de textos
-// Fisión Ciruja
-// Lulú Colombo
-
-// Equipo técnico Suiza:
-
-// Productor PicFilm
-// Nicola Genni
-
-// Productor ejecutivo 
-// Mattia…
-
-// Productor asociado:
-// Gian Paolo Righetti
-
-// Asistente de producción 
-// Valérie Loewensberg
-// Francisco Fernández Boixadós
-
-// DF y Camarógrafas 
-// Mariangela Marletta
-// Lucy Rya
-
-// Sonido directo
-// Francisco Fernández Boixadós
-// Guido Lombardo
-// Raffaele Von Flüe
-// Vittorio C.
-// ´,
+        }],
     },
     {
         id: "RICORDO DI UN PORTALE INTERDIMENSIONALE",
         categoria: "personales",
-        img: "/img/1",
+        img: ["./img/1/CDA-FR-0003.jpg"],
         texto: "Il progetto di intervento sulle immagini é di Lucy Rya, le fotografíe sano conservate presso la Biblioteca di Filosofía dell'Universídad Nacional de Córdoba, Argentina. Le fotografíe oríginali sano datate tra il 1869 e il 1950 grazie al lavoro della rícercatríce Cristina Boixadós e alla collaborazione del Museo del Malcantone e della Fondazione Maglio del Malcantone, Cantan Ticino, Suiza.",
         año: "2023",
     },
     {
         id: "FÓSIL",
         categoria: "personales",
-        img: "/img/2",
+        img: ["./img/2/LUCI2881.jpg"],
 
         video: [
-            "Videopoesía por Andrea Riera: https://vimeo.com/elojoylaoreja/fosilizado",
-            "Presentación: https://vimeo.com/elojoylaoreja/fosil",
-        ],
+            '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/730093231?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Video presentación del libro &quot;FÓSIL&quot;"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
+            '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/925117546?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Pasto - Presentación del libro &quot;Fósil&quot;"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
+            ],
         texto: [
             "libro de poesía visual + video poesía",
             "Fósil es un libro de poesía visual editado por lumpen.editorial",
@@ -174,7 +123,7 @@ const contenido = [
             }
         ],
         video: [
-            "Registro: https://vimeo.com/elojoylaoreja/elgigante",
+            '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/649711579?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="El gigante"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
         ],
         texto: [
             "Acción poética",
@@ -186,9 +135,9 @@ const contenido = [
         id: "VUELTA, FUGA Y PUNTO DE RETORNO",
         categoria: "personales",
         rubro: "cine",
-        img: "/img/3",
+        img: ["./img/3/afiche-VFyPR-.jpg"],
         video: [
-            "Trailer: https://vimeo.com/elojoylaoreja/trailervueltafugaypuntoderetorno",
+            '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1004195114?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TRAILER: Vuelta, fuga y punto de retorno."></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
         ],
         texto: "Un accidente cambia la vida de un arquitecto. Visita una comunidad mapuche y decide aprender eco-construcción. Conoce personas que dejan entrever otros mundos posibles. Así comienza un camino reflexivo y expansivo para construir su casa y habitar un lugar, aunque tal vez el lugar lo habite a él.",
         año: "2019",
@@ -261,7 +210,7 @@ const contenido = [
     {
         id: "PULSIONARCAICA",
         categoria: "personales",
-        img: "/img/4",
+        img: ["./img/4/detalle  mujer cabeza de estampida  -.jpg"],
         link: [{
             ref: "vimeo",
             url: "https://vimeo.com/showcase/10394394",
@@ -273,13 +222,13 @@ const contenido = [
         id: "LA CAJA DE ARRIBA DEL ROPERO",
         categoria: "personales",
         rubro: "cine",
-        img: "/img/5",
+        img: ["./img/5/Afiche_v5.jpg"],
         link: [{
             ref: "Nota",
             url: "https://doi.org/10.22370/margenes.2021.14.21.3091",
         }],
         video: [
-            "Trailer: https://vimeo.com/elojoylaoreja/trailerlacajadearribadelropero",
+            '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/55612908?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TRAILER &quot;La caja de arriba del ropero&quot;"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
         ],
         texto: "Juan Pi, llega de Suiza en 1896. En el barco le hablan de un tesoro. Se queda en Mendoza, porque se enamora de su luz. Se convierte en fotógrafo de San Rafael y registra el nacimiento de esta ciudad. Las fotos junto con la mirada de la realizadora, componen una obra hecha de memoria y de presente.",
         año: "2014",
@@ -350,7 +299,7 @@ const contenido = [
         categoria: "colectivos",
         rubro: "cine",
         video: [
-            "Registro: https://vimeo.com/elojoylaoreja/estamosaca",
+            '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/285370194?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="ESTAMOS ACÁ (legendas em português cc)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
         ],
         texto: [
             "Gabriel Martinho y Lucy Rya",
@@ -365,7 +314,7 @@ const contenido = [
         id: "POESÍA DE LA LUZ CRUDA",
         categoria: "colectivos",
         video: [
-            "https://vimeo.com/elojoylaoreja/poesiadelaluz",
+            '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/824365577?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Poesía de la luz cruda"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
         ],
         texto: [
             "Milagros Arias y Lucy Rya",
@@ -377,7 +326,7 @@ const contenido = [
         id: "LABORATORIO DE INVESTIGACIÓN Y CREATIVIDAD",
         categoria: "colectivos",
         video: [
-            "https://vimeo.com/elojoylaoreja/laboratorio",
+            '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/248171969?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Laboratorio de Investigación y Creatividad - 2017"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
         ],
         texto: [
             "María Fabro, Milagros Arias, Lucy Rya en el Bachillerato popular de Parque Patricios",
@@ -447,7 +396,7 @@ const contenido = [
         id: "EL TRANSEÚNTE INTERIMAGINARIO",
         categoria: "colectivos",
         video: [
-            "https://vimeo.com/elojoylaoreja/interimaginario",
+            '<div style="padding:80% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/43368444?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="El transeúnte interimaginario"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
         ],
         texto: [
             "Animación con Arena",
@@ -459,21 +408,21 @@ const contenido = [
     {
         id: "QUIRQUINCHO-ESTUDIO", 
         categoria: "apedido",
-        img: "/img/6",
+        img: ["./img/6/Centaurus-.jpg"],
         texto: ["Concepto, ilustración y diseño de etiquetas para productos","Compañías como: Almanac Beer Company San Francisco, California, United States.  Olfactory Brewing San Francisco, United States. Purpose Brewing & Cellars, Colorado, United State. Cervecería Granizo, Valparaíso, Chile. Cerveza Mauco, Valparaíso,Chile."],
         año: ["2017", "2024"],
     },
     {
         id: "TERRITORIOS DEL CANTO", 
         categoria: "apedido",
-        img: "/img/7",
+        img: ["./img/7/LUCI2406.jpg"],
         texto: ["Recital de cantoras de pueblos originarios en el Auditorio Nacional “Ballena Azul” Centro Cultural Kirchner para el 8M Movemos el mundo.","Ilustraciones y arte para las visuales proyectadas en el recital   Buenos Aires"],
         año: "2023",
     },
     {
         id: "ADELAS", 
         video: [
-            "https://vimeo.com/elojoylaoreja/adelas",
+            '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/925116504?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="ADELAS animación basada en obras de Luis Quesada"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
         ],
         categoria: "apedido",
         texto: "Animación para el corto “Adelas” Dirigido por Paula Domínguez. La animación es a pedido y está basada en grabados del artista Luis Quesada.",
@@ -483,14 +432,14 @@ const contenido = [
         id: "VIDEO-LIBRO DE ARTISTA de Inés Pacciarini",
         categoria: "apedido",
         video: [
-            "https://vimeo.com/elojoylaoreja/videolibro",
+            '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/925114695?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Video-Libro de artista- Inés Pacciarini"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
         ],
     },
     {
         id: "FUGAS, EL ARTE COMO TRINCHERAS",
         categoria: "apedido",
         video: [
-            "https://youtu.be/HfDMUq0wrt4?si=s5d_WTT8Og5bClo9",
+            '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://www.youtube.com/embed/HfDMUq0wrt4?si=HzXXDgNR6HMrxVvd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>',
         ],
         texto: "Acción urgente, México, arte, ilustraciones, diseño y animaciones para serie de 5 capítulos de Caro Reynoso y Emi Martín, sobre arte y disidencia en América Latina. Otros Mundos Cine.",
         año: "2022",
@@ -504,7 +453,7 @@ const contenido = [
     {
         id: "II FESTIVAL DE PERFORMANCE POLÍTICA, CHILE",
         categoria: "apedido",
-        img: "/img/8",
+        img: ["./img/8/berta 3.jpg"],
         texto: "Ilustración y diseño del afiche “Berta Cáceres”",
         año: "2018",
     },

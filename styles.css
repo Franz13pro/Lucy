@@ -45,3 +45,8 @@ main ul {
 .contenedor {
     border-bottom: 1px black solid;
 }
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
