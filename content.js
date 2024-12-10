@@ -26,23 +26,25 @@ const contenido = [
         categoria: "personales",
         rubro: "cine",
         texto: [
-            "Película no ficción",
-            "No ficción, 90 minutos.",
-            "En Argentina rescatan de la basura fotos de finales del siglo XIX que pertenecieron a inmigrantes suizos. Las imágenes viajan a través de territorios, guerras, movimientos humanos, entre América y Europa, en medio de la invención de un Estado nación.",
-            "Coproducción: Argentina, Suiza, Italia",
-            "Super8 y digital.",
-            "En etapa de montaje y postproducción.",
+            "Película, no ficción, 90 minutos.",
+            "Formato: Super8 y digital.",
+            "En etapa de postproducción.",
+            "Coproducción: Argentina, Suiza.",
             "Clínica de guión con Gustavo Fontán.",
-            "Producción:",
-            "elojoylaoreja (Argentina)",
-            "PicFilm (Suiza)",
-            "Start (Italia)",
-            "Apoyos:",
-            "INCAA - Vía Digital (Argentina)",
-            "Beca Fondo Nacional de las Artes (Argentina)",
-            "RSI, Radio Televisión Suiza (Suiza)",
-            "Swiss Film Commission (Suiza)",
-            "Museo del Malcantone, Curio (Suiza)",
+            "LOGLINE (Español):",
+            "En Argentina rescatan de la basura fotos de finales del siglo XIX que pertenecieron a inmigrantes suizos. Las imágenes viajan a través de territorios, guerras, movimientos humanos, entre América y Europa, en medio de la invención de un Estado nación.",
+            "LOGLINE (English):",
+            "In Argentina, photos from the late 1800s that belonged to Swiss immigrants were rescued from the trash. The images travel through territories, wars, human movements, between America and Europe, in the middle of the invention of a nation-state.",
+            "Guión y dirección: Lucy Rya",
+            "Producción: Ana Antes y Lucy Rya",
+            "Investigación: Cristina Boixadós",
+            "Producción ejecutiva: Ana Apontes",
+            "Coproductor: Nicola Genni",
+            "Montaje: Mario Bocchicchio",
+            "Diseño de Sonido: Andre Riera",
+            "Asistente integral: Federico Robles",
+            "Mezcla: Riccardo Studer",
+            "Músico: Sergio Lavia",
             "Protagonistas:",
             "Cristina Boixadós",
             "Paolo Righetti",
@@ -52,32 +54,22 @@ const contenido = [
             "Malvina González Lanfir",
             "Ana Sofía Maizón",
             "Adriano Righetti",
-            "Guión y dirección:",
-            "Lucy Rya",
-            "Investigación",
-            "Cristina Boixadós",
-            "Producción ejecutiva:",
-            "Ana Apontes",
-            "Coproductor:",
-            "Picfilm",
-            "Nicola Genni",
-            "Una coproducción:",
-            "RSI Radiotelevisione svizzera",
-            "Alessandro Marcionni",
-            "Montaje:",
-            "Mario Bocchicchio",
-            "Diseño de Sonido:",
-            "Andre Riera",
-            "Mezcla:",
-            "Riccardo Studer",
-            "Asistente integral:",
-            "Federico Robles",
-            "Músico:",
-            "Sergio Lavia",
+            "Casas productoras:",
+            "elojoylaoreja (Argentina)",
+            "PicFilm (Suiza)",
+            "Apoyos:",
+            "INCAA - Vía Digital (Argentina)",
+            "Beca Fondo Nacional de las Artes (Argentina)",
+            "RSI, Radio Televisión Suiza (Suiza)",
+            "Swiss Film Commission (Suiza)",
+            "Museo del Malcantone, Curio (Suiza)",
             ],
         año: "2024",
+        video: [
+            '<div style="padding:56.21% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1025132913?h=2390190bd4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="fragmento - VADO IN AMERICA - 2024"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>'
+        ],
         link: [{
-            ref: "Medios",
+            ref: "Nota de prensa",
             url: "https://ticinofilmcommission.ch/en/article/2413/quelle-fotografie-d-altri-tempi-che-dall-argentina-ci-portano-in-malcantone",
         }],
     },
@@ -116,14 +108,33 @@ const contenido = [
             {
                 ref: "Facebook",
                 url: "https://www.facebook.com/ungigantecae/",
-            }
+            },
+            {
+                ref: "Change.org",
+                url: "https://www.change.org/p/comuna-4-parar-la-tala-de-%C3%A1rboles-en-caba-y-puntualmente-en-el-barrio-de-la-boca?recruiter=43588956&utm_source=share_petition&utm_medium=facebook&utm_campaign=share_petition&utm_term=psf_combo_share_initial.pacific_post_sap_share_gmail_abi.gmail_abi&recruited_by_id=93dc6f40-6b4f-0130-ac9f-3c764e046567",
+            },
+            {
+                ref: "No a la tala de árboles: firmas del petitorio en change.org",
+                url: "https://drive.google.com/file/d/1KxC7iWUkuk96vat3jj_PEnbR9_gFO0L_/view?usp=drive_link",
+            },
+            {
+                ref: "Nota",
+                url: "https://radiografica.org.ar/2019/03/25/la-boca-buscan-talar-un-historico-arbol-de-la-calle-palos/",
+            },
         ],
         video: [
             '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/649711579?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="El gigante"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
         ],
         texto: [
-            "Acción poética",
-            "“Pintar la sombra que el Pehuen arrojará sobre la calle, el día 30 de marzo de 2018, en latitud 34.63351202340709, longitud 58.363833530914675, Tiempo Universal Coordinado”",
+            "Película, no ficción, 8.22 minutos.",
+            "Registro de una acción poética: Pintar la sombra que el Pehuen arrojará sobre la calle, el día 30 de marzo de 2018, en latitud 34.63351202340709, longitud 58.363833530914675, Tiempo Universal Coordinado.",
+            "Realización: Lucy Rya",
+            "Cámara: Milagros Arias y Lucy Rya",
+            "Producción: Juliana Saravia y Ana Navia",
+            "Con el apoyo de la comunidad del barrio de La Boca, Buenos Aires, Argentina",
+            "Festivales:",
+            "Festival de Cine Anarquista, Argentina, Bs As, 2023.",
+            "MARCO Museo La Boca. Exposición Internacional de Videoarte, Buenos Aires, 2021.",
         ],
         año: "2019",
     },
@@ -132,76 +143,65 @@ const contenido = [
         categoria: "personales",
         rubro: "cine",
         img: ["./img/3/afiche-VFyPR-.jpg"],
+        link: [
+            {
+                ref: "Artículo",
+                url: "https://margenes.uv.cl/index.php/margenes/article/view/3899/4210",
+            },
+            {     
+                ref: "Nota de prensa",
+                url: "https://lumiton.ar/evento/vuelta-fuga-y-punto-de-retorno/",
+            },
+        ],
         video: [
             '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1004195114?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TRAILER: Vuelta, fuga y punto de retorno."></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
         ],
-        texto: "Un accidente cambia la vida de un arquitecto. Visita una comunidad mapuche y decide aprender eco-construcción. Conoce personas que dejan entrever otros mundos posibles. Así comienza un camino reflexivo y expansivo para construir su casa y habitar un lugar, aunque tal vez el lugar lo habite a él.",
+        texto: [
+            "Película no ficción, 86 minutos, 2019",
+            "Coproducción: Argentina y Chile",
+            "LOGLINE:",
+            "Un accidente cambia la vida de un arquitecto. Visita una comunidad mapuche y decide aprender eco-construcción. Conoce personas que dejan entrever otros mundos posibles. Así comienza un camino reflexivo y expansivo para construir su casa y habitar un lugar, aunque tal vez el lugar lo habite a él.",
+            "Festivales:",
+            "Tulum World Environment Film Festival 2022",
+            "PIFF Parana Internacional Films Festival 7 Edición 2021",
+            "Ecocine - Festival Internacional de Cinema Ambiental e Direitos Humanos 2021",
+            "Madrid Indie Film Festival • MADRIFF 2020",
+            "FIDBA, International Documentary Film Festival, Buenos Aires, Argentina 2020",
+            "Dirección, guión y montaje: Lucy Rya",
+            "Diseño de sonido: Andrea Riera",
+            "Producción: Carla Márquez y Lucy Rya",
+            "Música: Aníbal Correa",
+            "Tema: Ingreso a la hiperbórea del sur",
+            "Corrección de color: Chino Flores (SAE)",
+            "Cámara:",
+            "Andrea Riera",
+            "Carlos Silva",
+            "Fernando Rossi",
+            "Sebastián Sacur",
+            "Kiara Vega",
+            "Lucy Rya",
+            "Timelapse:",
+            "Fabián Verdugo",
+            "Fernando Rossi",
+            "Sebastián Sacur",
+            "Sonido Directo:",
+            "Andrea Riera",
+            "Sebastián Sacur",
+            "Carla Márquez",
+            "Guadalupe Perez Cesaretti",
+            "Protagonista: Horacio Márquez",
+            "Convesaciones con:",
+            "Alberto Polkosnik",
+            "Ángela Jorge",
+            "Aída Arévalo",
+            "Melania Jesús Bocchia",
+            "José Ignacio Tessore",
+            "Anibal Correa",
+            "Omar Eduardo Cañete Islas",
+            "Participación especial de los perros: Lola, Ema, Santo, Isis, Pepa, Roy, Mona y Moro",
+            "Perros actores de foley: Ozzy y Lemmy",
+        ],
         año: "2019",
-        //ficha: 
-        // Película no ficción
-// 2019, Argentina y Chile.
-// Duración 86 minutos
-
-// Festivales:
-// Tulum World Environment Film Festival 2022
-// PIFF Parana Internacional Films Festival 7 Edición 2021
-// Ecocine - Festival Internacional de Cinema Ambiental e Direitos Humanos 2021
-// Madrid Indie Film Festival • MADRIFF 2020
-// FIDBA, International Documentary Film Festival, Buenos Aires, Argentina 2020
-
-// Protagonista:
-
-// Horacio Márquez
-// Convesaciones:
-// Alberto Polkosnik
-// Ángela Jorge
-// Aída Arévalo
-// Melania Jesús Bocchia
-// José Ignacio Tessore
-// Anibal Correa
-// Omar Eduardo Cañete Islas
-
-// Participación especial de los perros:
-// Lola, Ema, Santo
-// Isis, Pepa, Roy, Mona y Moro
-
-// Perros actores de foley
-// Los cachorros Ozzy y Lemmy
-
-// Dirección, guión y montaje
-// Lucy Rya
-
-// Diseño de sonido
-// Andrea Riera
-
-// Producción
-// Carla Márquez
-// Cámara
-// Andrea Riera
-// Carlos Silva
-// Fernando Rossi
-// Sebastián Sacur
-// Kiara Vega
-// Lucy Rya
-
-// Timelapse
-// Fabián Verdugo
-// Fernando Rossi
-// Sebastián Sacur
-
-// Sonido Directo
-// Andrea Riera
-// Sebastián Sacur
-// Carla Márquez
-// Guadalupe Perez Cesaretti
-
-// Música
-// Aníbal Correa
-// Tema: Ingreso a la hiperbórea del sur
-
-// Corrección de color
-// Chino Flores (SAE)
-
     },
     {
         id: "PULSIONARCAICA",
@@ -219,74 +219,68 @@ const contenido = [
         categoria: "personales",
         rubro: "cine",
         img: ["./img/5/Afiche_v5.jpg"],
-        link: [{
-            ref: "Nota",
-            url: "https://doi.org/10.22370/margenes.2021.14.21.3091",
-        }],
+        link: [
+            {
+                ref: "Nota de prensa",
+                url: "https://www.clarin.com/cultura/video-caja-arriba-ropero_3_cOmuvgpP2.html",
+            },
+            {
+                ref: "Artículo",
+                url: "https://doi.org/10.22370/margenes.2021.14.21.3091",
+            },
+            {
+                ref: "Nota DAC",
+                url: "https://www.youtube.com/watch?v=Nma1yEID5-8",
+            },
+        ],
         video: [
             '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/55612908?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TRAILER &quot;La caja de arriba del ropero&quot;"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
         ],
-        texto: "Juan Pi, llega de Suiza en 1896. En el barco le hablan de un tesoro. Se queda en Mendoza, porque se enamora de su luz. Se convierte en fotógrafo de San Rafael y registra el nacimiento de esta ciudad. Las fotos junto con la mirada de la realizadora, componen una obra hecha de memoria y de presente.",
+        texto: [
+            "Película no ficción, 60 minutos, 2014",
+            "Mendoza, Argentina",
+            "LOGLINE:",
+            "Juan Pi llega de Suiza a Argentina en 1896. En el barco le hablan de un tesoro. Se queda en Mendoza. Se convierte en fotógrafo de San Rafael y registra el nacimiento de la ciudad. Las fotos junto con la mirada de la realizadora, componen una obra hecha de memoria y presente.",
+            "Premios y festivales:",
+            "Doc Buenos Aires 2014",
+            "2° PREMIO COMPETENCIA NACIONAL MENDOC 2012",
+            "1° mención Premio de la Prensa COMPETENCIA NACIONAL MENDOC 2012",
+            "Ganador del concurso de guiones MenDoc 2011",
+            "Festival BAphoto 2020",
+            "Emitida en Incaa TV, en Acequia TV y Cinear.play ondemand.",
+            "Declarado de interés cultural por la Honorable Cámara de Diputados de la Provincia de Mendoza, Argentina.",
+            "Declarado de interés  por la Universidad Nacional de Cuyo",
+            "Declarado de interés Social, Cultural y Regional  el Honorable Concejo Deliberante de San Rafael, Mendoza, Argentina.",
+            "Dirección, guión y montaje: Lucy Rya",
+            "Producción, Fotografía y cámara: Bernardo Blanco",
+            "Proyecto, investigación y entrevistas: Taty Chanampa",
+            "Diseño de sonido: Andrea Riera",
+            "Música original: Abelardo Saravia",
+            "Asistentes de Producción: Javier Sotelo, Guadalupe Pérez Cesaretti y Aída Arévalo",
+            "Animación y Gráfica: Sebastián García",
+            "Post-producción de sonido y mezcla 5.1: Martín Quinzio",
+            "Colorista: Nahuel Srnec",
+        ],
         año: "2014",
-        // ficha:
-        
-// Película no ficción 
-// Argentina, 2014 
-// No ficción, 60 minutos
-
-// 
-// Equipo de realización:
-// ﻿Dirección, guion y edición: Lucy Rya
-// Producción, Fotografía y cámara: Bernardo Blanco
-// Proyecto, investigación y entrevistas: Taty Chanampa
-// Música original: Abelardo Saravia
-// Asistentes de Producción: Javier Sotelo, Guadalupe Pérez Cesaretti y Aída Arévalo
-// Animación y Gráfica: Sebastián García
-// Post-producción de sonido y mezcla 5.1: Martín Quinzio
-// Post-producción de sonido: Andrea Riera
-// Colorista: Nahuel Srnec
- 
-// Premios y festivales:
-// Doc Bueno Aires 2014
-// 2° PREMIO COMPETENCIA NACIONAL MENDOC 2012
-// 1°mención Premio de la Prensa COMPETENCIA NACIONAL MENDOC 2012
-// Ganador del concurso de guiones MenDoc 2011
-// Festival BAphoto 2020
-
-// Emitida en Incaa TV y en Acequia TV  y  Cinear.play ondemand.
-// Declarado de interés Cultural por la Honorable Cámara de Diputados de la Provincia de Mendoza, Argentina.
-// Declarado de interés  por la Universidad Nacional de Cuyo
-// Declarado de interés Social, Cultural y Regional  el Honorable Concejo Deliberante de San Rafael, mendoza, Argentina.
-
-// Equipo Técnico:
-
-// Dirección, guión y montaje: Lucy Rya
- 
-// Producción, Fotografía y cámara: Bernardo Blanco
-
-// Proyecto, investigación y entrevistas: Taty Chanampa
-// Diseño de sonido: Andrea Riera
-// Música original: Abelardo Saravia
-// Asistentes de Producción: Javier Sotelo, Guadalupe Pérez Cesaretti y Aída Arévalo
-// Animación y Gráfica: Sebastián García
-// Post-producción de sonido y mezcla 5.1: Martín Quinzio
-// Colorista: Nahuel Srnec
-
     },
     {
         id: "EL FLOW DE LXS CABRONXS",
         categoria: "colectivos",
         rubro: "cine",
+        video: [
+            '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/190180886?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Teaser: El flow de lxs cabronxs"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>'
+        ],
         link: [{
-            ref: "Necesita clave",
-            url: "https://vimeo.com/elojoylaoreja/elflow",
+            ref: "Página web",
+            url: "https://elflowdelxscabronxs.github.io/",
         }],
         texto: [
             "Película no ficción en desarrollo",
             "Colectora deseante.",
-            "Emi Martín y Lucy Rya",
+            "Dirección: Emi Martín y Lucy Rya",
             "Documental en desarrollo sobre transfeminismo y HipHop en Latinoamérica",
             "Apoyos: Fondo Nacional de las Artes, Mecenazgo.",
+            "Logline: Raperas latinoamericanas se conectan para hacer un viaje en el tiempo a través del hip hop, descubriendo que el rap de disidencias y mujeres es un lugar desde donde resistir en este cis-tema.",
         ],
         año: ["2023", "2024"],
     },
@@ -298,11 +292,10 @@ const contenido = [
             '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/285370194?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="ESTAMOS ACÁ (legendas em português cc)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
         ],
         texto: [
+            "Película no ficción, 8.30 minutos.",
+            "Argentina, Brasil.",
             "Gabriel Martinho y Lucy Rya",
-            "El 8 de agosto de 2018 se votó  en el Senado Nacional de Argentina la ley para la interrupción voluntaria del embarazo (IVE) que ya tenía media sanción del Congreso Nacional.",
-            "La Campaña Nacional por el Derecho al Aborto Legal, Seguro y Gratuito, convocó a una concentración, denominada 8A, a la cual acudieron una multitud de personas de todas las provincias en Argentina para ponerle el cuerpo a esta ley histórica que marca un punto de inflexión y que en la sociedad ya no tendrá vuelta atrás, más allá de los resultados. “Estamos Acá” fue filmado durante esta concertación, en la Capital Federal argentina.",
-            "También se realizaron pañuelazos internacionales en la puerta de las embajadas argentinas de Madrid, Barcelona, Vigo, Bilbao, Santiago de Compostela, en algunas ciudades de Italia, en París, en Berlín, Amsterdam, Suecia, Irlanda, Canadá, en Toronto y en Montreal, Chile, México, Perú, en las ciudades brasileñas de Porto Alegre, Belo Horizonte, San Pablo.",
-            "A las 02.43 de la mañana del 9 de agosto terminó la histórica sesión en el Senado de la Nación Argentina, los resultados fueron por el “no” 38 votos y 31 por el “sí”.",
+            "Sinopsis: El 8 de agosto de 2018 se votó  en el Senado Nacional de Argentina la ley para la interrupción voluntaria del embarazo (IVE) que ya tenía media sanción del Congreso Nacional. La Campaña Nacional por el Derecho al Aborto Legal, Seguro y Gratuito, convocó a una concentración, denominada 8A, a la cual acudieron una multitud de personas de todas las provincias en Argentina para ponerle el cuerpo a esta ley histórica que marca un punto de inflexión y que en la sociedad ya no tendrá vuelta atrás, más allá de los resultados. “Estamos Acá” fue filmado durante esta concertación, en la Capital Federal argentina. También se realizaron pañuelazos internacionales en la puerta de las embajadas argentinas de Madrid, Barcelona, Vigo, Bilbao, Santiago de Compostela, en algunas ciudades de Italia, en París, en Berlín, Amsterdam, Suecia, Irlanda, Canadá, en Toronto y en Montreal, Chile, México, Perú, en las ciudades brasileñas de Porto Alegre, Belo Horizonte, San Pablo. A las 02.43 de la mañana del 9 de agosto terminó la histórica sesión en el Senado de la Nación Argentina, los resultados fueron por el “no” 38 votos y 31 por el “sí”.",
         ],
         año: "2018",
     },

@@ -13,6 +13,7 @@ nav {
     font-weight: bold;
     align-items: center;
     border-bottom: 1px black solid;
+    font-size: 1.5em;
 }
 
 nav ul {
@@ -32,6 +33,23 @@ main ul {
     list-style-type: none;
 }
 
+h2:hover {
+    cursor: pointer;
+    background-color: rgba(134, 77, 228, 0.5);
+}
+
+a:link {
+    color: rgb(66, 143, 100)
+}
+
+a:hover {
+    background-color: rgba(252, 235, 4, 0.5)
+}
+
+a:visited {
+    color: rgb(119, 96, 184)
+}
+
 .item {
     display: none;
 
@@ -44,9 +62,18 @@ main ul {
 
 .contenedor {
     border-bottom: 1px black solid;
+
 }
 
 .responsive {
     width: 100%;
     height: auto;
+    padding: 1%;
+}
+
+.column {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding: 2%;
 }

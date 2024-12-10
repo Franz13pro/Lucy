@@ -10,49 +10,17 @@ const renderItem = (e) => { // defino la renderización de items del listado
         const contenidoItem = contenido.find(el => el.id===itemSeleccionado.firstElementChild.innerText) // encuentro el contenido correspondiente a lo que se quiere mostrar
         const divItem = document.createElement("div"); // const un div
         divItem.classList.add("item"); // le doy clase item
-        
-        if (contenidoItem.img) { // agrego imágenes, si hay
-            const divImg = document.createElement("div");
-            contenidoItem.img.forEach(e => {
-                const img = document.createElement("img");
-                img.src = e;
-                img.classList.add("responsive");
-                divImg.appendChild(img);
-            });
-            divItem.appendChild(divImg);
-        }
-        const img = document.createElement("img"); // const img
-        
-        if (contenidoItem.video) { // agrego videos, si hay
-            contenidoItem.video.forEach(video => {
-                const divVideo = document.createElement("div")
-                divVideo.innerHTML = video
-                divItem.appendChild(divVideo)
-            });
-        }
-
-        if (contenidoItem.texto) {
-            const divTexto = document.createElement("div"); // creo una div de texto
-            if (typeof(contenidoItem.texto) === "object") {
-                contenidoItem.texto.forEach(el => { // por cada texto del contenido
-                    const p = document.createElement("p"); // const p
-                    p.innerHTML = el; // le doy contenido al p igual al HTML del contenido
-                    divTexto.appendChild(p); // incluyo el p al div
-                });
-            } else {
-                const p = document.createElement("p"); // const p
-                p.innerHTML = contenidoItem.texto; // le doy texto al p igual al texto del contenido
-                divTexto.appendChild(p); // incluyo el p al di
-            }
-            divItem.appendChild(divTexto)
-        }
+        const divItemIzq = document.createElement("div");
+        divItemIzq.classList.add("column");
+        const divItemDer = document.createElement("div");
+        divItemDer.classList.add("column");
         if (contenidoItem.link) {
             const divLink = document.createElement("div"); // creo una div de link
             contenidoItem.link.forEach(el=>{
                 const a = document.createElement("a"); // const a
                 a.innerText = el.ref; // le doy texto igual a ref del el
                 a.href = el.url; //le doy href correspondiente a url del el
-                a.style.display = "block"
+                a.style.display = "block";
                 divLink.appendChild(a); // incluyo el a al div
             })
             // if (typeof(contenidoItem.link) === "object") {
@@ -68,11 +36,50 @@ const renderItem = (e) => { // defino la renderización de items del listado
             //     a.href = contenidoItem.link; //le doy href correspondiente
             //     divLink.appendChild(a); // incluyo el a al div
             // }
-            divItem.appendChild(divLink)
+            divItemDer.appendChild(divLink);
+        }
+
+        if (contenidoItem.video) { // agrego videos, si hay
+            contenidoItem.video.forEach(video => {
+                const divVideo = document.createElement("div");
+                divVideo.classList.add("responsive");
+                divVideo.innerHTML = video;
+                divItemIzq.appendChild(divVideo);
+            });
+        }
+        
+        if (contenidoItem.img) { // agrego imágenes, si hay
+            const divImg = document.createElement("div");
+            contenidoItem.img.forEach(e => {
+                const img = document.createElement("img");
+                img.src = e;
+                img.classList.add("responsive");
+                divImg.appendChild(img);
+            });
+            divItemIzq.appendChild(divImg);
+        }
+
+        // const img = document.createElement("img"); // const img
+        
+        if (contenidoItem.texto) {
+            const divTexto = document.createElement("div"); // creo una div de texto
+            if (typeof(contenidoItem.texto) === "object") {
+                contenidoItem.texto.forEach(el => { // por cada texto del contenido
+                    const p = document.createElement("p"); // const p
+                    p.innerHTML = el; // le doy contenido al p igual al HTML del contenido
+                    divTexto.appendChild(p); // incluyo el p al div
+                });
+            } else {
+                const p = document.createElement("p"); // const p
+                p.innerHTML = contenidoItem.texto; // le doy texto al p igual al texto del contenido
+                divTexto.appendChild(p); // incluyo el p al di
+            }
+            divItemDer.appendChild(divTexto)
         }
 
 
-        divItem.append(img); // incluyo estos elementos en el div
+        divItem.append(divItemIzq); // incluyo estos elementos en el div
+        divItem.append(divItemDer); // incluyo estos elementos en el div
         itemSeleccionado.appendChild(divItem); // incluyo el div en el item seleccionado
         itemSeleccionado.lastElementChild.toggleAttribute("mostrar"); // muestro el div
     }
