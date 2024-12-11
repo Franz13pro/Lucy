@@ -21,6 +21,7 @@ const renderItem = (e) => { // defino la renderización de items del listado
                 a.innerText = el.ref; // le doy texto igual a ref del el
                 a.href = el.url; //le doy href correspondiente a url del el
                 a.style.display = "block";
+                a.target = "_blank"
                 divLink.appendChild(a); // incluyo el a al div
             })
             // if (typeof(contenidoItem.link) === "object") {
@@ -99,24 +100,41 @@ const renderLista = (array) => { // defino renderizacion de lista
 };
 
 const renderStatement = () => {
-    listaContenedores.innerHTML = ""; // limpio lista
-    const div = document.createElement("div");
-    statement.texto.forEach(el => {
-        const p = document.createElement("p");
-        p.innerText = el;
-        div.appendChild(p);
-    });
-    listaContenedores.appendChild(div);
+    // listaContenedores.innerHTML = ""; // limpio lista
+    if (listaContenedores.parentNode.childElementCount > 1) {
+        listaContenedores.parentNode.firstChild.remove();
+    } else {
+        const div = document.createElement("div");
+        div.classList.add("contenedor");
+        const divStatIzq = document.createElement("div");
+        const divStatDer = document.createElement("div");
+        divStatIzq.classList.add("column");
+        divStatDer.classList.add("column");
+        const img = document.createElement("img");
+        img.src = "./img/STATEMENT.jpg";
+        img.classList.add("responsive");
+        divStatIzq.appendChild(img);
+        statement.texto.forEach(el => {
+            const p = document.createElement("p");
+            p.innerText = el;
+            divStatDer.appendChild(p);
+        });
+
+        div.append(divStatIzq, divStatDer);
+        listaContenedores.parentNode.prepend(div);
+    }
+    // listaContenedores.appendChild(div);
 };
 
 const navLinkFunc = (e) => { // defino la selección de categorias
     if (e.target.href.includes("all")) { // si el link hace referencia a all
+        renderStatement();
         renderLista(contenido); // renderizo todo el contenido
     } else if (e.target.href.includes("cine")) {
         const contenidoRubro = contenido.filter(item=>e.target.href.includes(item.rubro)); // defino un listado filtrado por rubro
         renderLista(contenidoRubro); // renderizo este listado
-    } else if (e.target.href.includes("statement")) {
-        renderStatement()
+    // } else if (e.target.href.includes("statement")) {
+    //     renderStatement()
     } else { // sino...
         const contenidoSeleccionado = contenido.filter(item=>e.target.href.includes(item.categoria)); // defino un listado filtrado por categoría
         renderLista(contenidoSeleccionado); // renderizo este listado

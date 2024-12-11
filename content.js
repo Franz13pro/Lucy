@@ -1,5 +1,6 @@
 const statement = {
     texto: [
+        "STATEMENT",
         "Trabajo en mi laboratorio creativo de experimentos, en donde los lenguajes se multiplican. Una bacanal de elementos que se va desplegando como tejido que advierte diversidad de geometrías. Me mueven preguntas sobre los caminos que hemos recorrido a través de la cultura, me interesan las personas y generar conversaciones siempre inconclusas acerca de los vínculos y los procesos de transformación.",
         "Trabajo con el audio-visual cruzando por caminos no lineales y haciendo preguntas sobre los casilleros que a veces terminan siendo trampas. El lenguaje audiovisual ha sido un lugar a donde llegar, pero también he cruzado la vereda hacia la fotografía, la gráfica, la pintura y la escritura. Encuentro en la práctica artística un espacio donde desarrollar mi curiosidad y mi motor vital, a través de la intuición.",
         "La fotografía fue el primer Aleph en donde me vi espejada. Los misterios de la luz que viaja en el tiempo han sido fuente de inspiración para mis trabajos. Ahondando en la idea de tiempo, comencé a admirar los yacimientos arqueológicos, pinturas y símbolos de las culturas antiguas. Tanto la fotografía como la pintura en una roca, son expresiones humanas que generan pocas respuestas y muchas preguntas. Lo que me atrae es un misterio que conecta todas las cosas desde tiempos inmemoriales."
@@ -10,16 +11,19 @@ const contenido = [
         id: "TEATRO DE MÁQUINAS",
         categoria: "personales",
         link: [{
-            ref: "vimeo",
+            ref: "Video performances",
             url: "https://vimeo.com/showcase/10394917",
         }],
         texto: [
-            "Video performance y video instalación",
+            "Video performances y video instalación",
             "Lugar de realización: Comuna de Aranno, Cantón Ticino, Suiza. Año 2023",
             "Este es el registro de la video-performance titulada “Teatro de Máquinas” se desarrolló en el marco de la muestra “Malcantone 1900, bajo la mirada de un emigrante”, organizada por el Museo de Curio (Suiza) junto con su director Damiano Robbiani, gracias a la colaboración de la Fundación “Maglio del Malcantone” y basado en la investigación de la historiadora Cristina Boixadós (Argentina)",
-            "La video-instalación se realizará en septiembre de 2024 en el Maglio del Malcantone, Suiza."
+            "La video-instalación se realizará en septiembre de 2025 en el Maglio del Malcantone, Suiza."
         ],
         año: ["2023","2024"],
+        video: [
+            '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/955688755?h=d67d8ab528" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
+        ]
     },
     {
         id: "VADO IN AMERICA",
@@ -425,7 +429,7 @@ const contenido = [
         año: "2023",
     },
     {
-        id: "VIDEO-LIBRO DE ARTISTA de Inés Pacciarini",
+        id: "VIDEO-LIBRO DE ARTISTA",
         categoria: "apedido",
         video: [
             '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/925114695?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Video-Libro de artista- Inés Pacciarini"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
