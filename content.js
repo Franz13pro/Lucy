@@ -20,7 +20,7 @@ const contenido = [
             "Este es el registro de la video-performance titulada “Teatro de Máquinas” se desarrolló en el marco de la muestra “Malcantone 1900, bajo la mirada de un emigrante”, organizada por el Museo de Curio (Suiza) junto con su director Damiano Robbiani, gracias a la colaboración de la Fundación “Maglio del Malcantone” y basado en la investigación de la historiadora Cristina Boixadós (Argentina)",
             "La video-instalación se realizará en septiembre de 2025 en el Maglio del Malcantone, Suiza."
         ],
-        año: ["2023","2024"],
+        año: "2023 / 2024",
         video: [
             '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/955688755?h=d67d8ab528" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
         ]
@@ -216,7 +216,7 @@ const contenido = [
             url: "https://vimeo.com/showcase/10394394",
         }],
         texto: "El gesto de sacar la obra a la calle es para reponerla en su lugar de pertenencia, para que dialogue con el entorno y con las personas. Del mismo modo que las personas en el pasado, pintaban en las cuevas y en los caminos que transitaban. Es por eso que las pegatinas xilográficas de la colección “Pulsión Arcaica” se realizan en la vía pública, durante un ritual que remite a las pinturas en las cavernas, como un llamado a la memoria colectiva. Pulsión Arcaica es un grupo de obras que nace de la necesidad por recuperar y abrir el flujo de la memoria colectiva. Conectar el arte y el saber a través de la intuición y no desde lo ya escrito. Entramar nuestras biografías como mujeres y disidencias en la historia, que recuperamos y reinventamos. Al mismo tiempo que inventamos símbolos, reinventamos la historia. Estos son los registros audiovisuales de las pegatinas en distintos lugares: Paris, Canal Saint Martin, Francia París Montmartre, Francia Valparaíso, Chile San Luis, Argentina La Plata, Bs. As, Argentina Video La boca, Buenos Aires, Argentina",
-        año: ["2018", "2024"],
+        año: "2018 / 2024",
     },
     {
         id: "LA CAJA DE ARRIBA DEL ROPERO",
@@ -286,7 +286,7 @@ const contenido = [
             "Apoyos: Fondo Nacional de las Artes, Mecenazgo.",
             "Logline: Raperas latinoamericanas se conectan para hacer un viaje en el tiempo a través del hip hop, descubriendo que el rap de disidencias y mujeres es un lugar desde donde resistir en este cis-tema.",
         ],
-        año: ["2023", "2024"],
+        año: "2023 / 2024",
     },
     {
         id: "ESTAMOS ACÁ",
@@ -359,7 +359,7 @@ const contenido = [
             "N6: “Feria subjetiva” Periódico",
             "Apoyo: Fondo Nacional de las Artes",
             ],
-        año: ["2016", "2018"],
+        año: "2016 / 2018",
     },
     {
         id: "REVISTA CUMBRE DE FOCAS",
@@ -378,7 +378,7 @@ const contenido = [
             "Colectivo: Mansa Ballena",
             "Cumbre de Focas es un encuentro, un cruce de viejas morsas de la plástica, el audiovisual y las letras provenientes de distintas latitudes que se dan cita en este fanzine orquestado por el colectivo trans-feminista Mansa Ballena.",
         ],
-        año: ["2016", "2017"],
+        año: "2016 / 2017",
     },
     {
         id: "CUADERNILLO DE ACOMPAÑAMIENTO PRE DURANTE Y POST ABORTO CON PASTILLAS",
@@ -390,7 +390,7 @@ const contenido = [
             "Editorial Adelitas, Mansa Ballena",
             "Este material no explica cómo realizar un aborto con pastillas. Compila recetas y ejercicios para acompañar el proceso, junto a relatos en primera persona de experiencias de aborto con pastillas en Argentina, Chile y Colombia.",
         ],
-        año: "",
+        año: "2016",
     },    
     {
         id: "EL TRANSEÚNTE INTERIMAGINARIO",
@@ -404,17 +404,17 @@ const contenido = [
         ],
         año: "2016",
     },    
-
+    
     {
         id: "QUIRQUINCHO-ESTUDIO", 
-        categoria: "apedido",
+        categoria: "colectivos",
         img: ["./img/6/Centaurus-.jpg"],
         texto: ["Concepto, ilustración y diseño de etiquetas para productos","Compañías como: Almanac Beer Company San Francisco, California, United States.  Olfactory Brewing San Francisco, United States. Purpose Brewing & Cellars, Colorado, United State. Cervecería Granizo, Valparaíso, Chile. Cerveza Mauco, Valparaíso,Chile."],
-        año: ["2017", "2024"],
+        año: "2017 / 2024",
     },
     {
         id: "TERRITORIOS DEL CANTO", 
-        categoria: "apedido",
+        categoria: "colectivos",
         img: ["./img/7/LUCI2406.jpg"],
         texto: ["Recital de cantoras de pueblos originarios en el Auditorio Nacional “Ballena Azul” Centro Cultural Kirchner para el 8M Movemos el mundo.","Ilustraciones y arte para las visuales proyectadas en el recital Buenos Aires"],
         año: "2023",
@@ -424,20 +424,21 @@ const contenido = [
         video: [
             '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/925116504?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="ADELAS animación basada en obras de Luis Quesada"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
         ],
-        categoria: "apedido",
+        categoria: "colectivos",
         texto: "Animación para el corto “Adelas” Dirigido por Paula Domínguez. La animación es a pedido y está basada en grabados del artista Luis Quesada.",
         año: "2023",
     },
     {
         id: "VIDEO-LIBRO DE ARTISTA",
-        categoria: "apedido",
+        categoria: "colectivos",
         video: [
             '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/925114695?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Video-Libro de artista- Inés Pacciarini"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
         ],
+        año: "2023",
     },
     {
         id: "FUGAS, EL ARTE COMO TRINCHERAS",
-        categoria: "apedido",
+        categoria: "colectivos",
         video: [
             '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://www.youtube.com/embed/HfDMUq0wrt4?si=HzXXDgNR6HMrxVvd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>',
         ],
@@ -446,15 +447,38 @@ const contenido = [
     },
     {
         id: "SOBERANÍA ALIMENTARIA Y VISIBILIDAD DE LAS MUJERES CAMPESINAS, ARGENTINA",
-        categoria: "apedido",
+        categoria: "colectivos",
         texto: "Campaña gráfica del Ministerio de Cultura Nacional y dirigida por Kekena Corvalán.",
         año: "2021",
     },
     {
         id: "II FESTIVAL DE PERFORMANCE POLÍTICA, CHILE",
-        categoria: "apedido",
+        categoria: "colectivos",
         img: ["./img/8/berta 3.jpg"],
         texto: "Ilustración y diseño del afiche “Berta Cáceres”",
         año: "2018",
+    },
+    {
+        id: "MANSA BALLENA",
+        categoria: "colectivos",
+        video: [
+            '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://www.youtube.com/embed/Tmuz-c0eMH4?si=6QNZ6d4qqPCM2cYt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>',
+        ],
+        link: [
+            {
+                ref: "Canal de youtube", 
+                url: "https://www.youtube.com/@mansaballena"
+            },
+            {
+                ref: "Facebook", 
+                url: "https://www.facebook.com/mansa.ballena?locale=es_LA"
+            },
+        ],
+        texto: [
+            "MANSA BALLENA, es una colectiva artista multidimensional, transgordillerana!",
+            "Argentina y Chile.",
+            "Mar del Plata, 11 de octubre de 2015. Editamos este video con urgencia para hacer circular algunas de las imágenes que tomamos, no solo de la represión policial sufrida en la catedral, sino de la fiesta y la marcha de alegría de más de 60mil mujeres unidas en el Encuentro Nacional de Mujeres, Argentina.",
+        ],
+        año: "2012 / 2015",
     },
 ];

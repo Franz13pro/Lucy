@@ -7,7 +7,7 @@ const renderItem = (e) => { // defino la renderización de items del listado
     if (itemSeleccionado.childElementCount === 2) { // chequeo que haya 2 elementos dentro
         itemSeleccionado.lastElementChild.toggleAttribute("mostrar"); // si es así toggleo si se muestra
     } else { // sino...
-        const contenidoItem = contenido.find(el => el.id===itemSeleccionado.firstElementChild.innerText) // encuentro el contenido correspondiente a lo que se quiere mostrar
+        const contenidoItem = contenido.find(el => itemSeleccionado.firstChild.innerText.includes(el.id)) // encuentro el contenido correspondiente a lo que se quiere mostrar
         const divItem = document.createElement("div"); // const un div
         divItem.classList.add("item"); // le doy clase item
         const divItemIzq = document.createElement("div");
@@ -92,7 +92,7 @@ const renderLista = (array) => { // defino renderizacion de lista
         const li = document.createElement("li"); // creo un li
         li.classList.add(el.categoria, "contenedor"); // le doy clase de contenedor y según la categoria que tiene cada elemento
         const h2 = document.createElement("h2"); // creo un h2
-        h2.textContent = el.id; // que dice lo mismo que la id del elemento
+        h2.textContent = `${el.año} - ${el.id}`; // que dice lo mismo que la id del elemento
         listaContenedores.appendChild(li); // agrego el li a la lista
         li.appendChild(h2); // agrego el h2 al li
         h2.addEventListener("click", renderItem); // le doy funcion al h2
@@ -131,11 +131,17 @@ const navLinkFunc = (e) => { // defino la selección de categorias
         renderStatement();
         renderLista(contenido); // renderizo todo el contenido
     } else if (e.target.href.includes("cine")) {
+        if (listaContenedores.parentNode.childElementCount > 1) {
+            listaContenedores.parentNode.firstChild.remove();
+        }
         const contenidoRubro = contenido.filter(item=>e.target.href.includes(item.rubro)); // defino un listado filtrado por rubro
         renderLista(contenidoRubro); // renderizo este listado
     // } else if (e.target.href.includes("statement")) {
     //     renderStatement()
     } else { // sino...
+        if (listaContenedores.parentNode.childElementCount > 1) {
+            listaContenedores.parentNode.firstChild.remove();
+        }
         const contenidoSeleccionado = contenido.filter(item=>e.target.href.includes(item.categoria)); // defino un listado filtrado por categoría
         renderLista(contenidoSeleccionado); // renderizo este listado
     }
