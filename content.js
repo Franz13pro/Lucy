@@ -286,7 +286,7 @@ const contenido = [
             "Apoyos: Fondo Nacional de las Artes, Mecenazgo.",
             "Logline: Raperas latinoamericanas se conectan para hacer un viaje en el tiempo a través del hip hop, descubriendo que el rap de disidencias y mujeres es un lugar desde donde resistir en este cis-tema.",
         ],
-        año: "2023 / 2024",
+        año: "2015 / 2024",
     },
     {
         id: "ESTAMOS ACÁ",

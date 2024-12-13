@@ -1,7 +1,6 @@
 const listaContenedores = document.querySelector("main ul"); // tomo el listado de contenidos
 const navLinks = document.querySelectorAll("nav a"); // tomo los links de la navbar
 
-
 const renderItem = (e) => { // defino la renderización de items del listado
     const itemSeleccionado = e.target.closest("li"); // defino el item seleccionado
     if (itemSeleccionado.childElementCount === 2) { // chequeo que haya 2 elementos dentro
@@ -86,8 +85,17 @@ const renderItem = (e) => { // defino la renderización de items del listado
     }
 };
 
-const renderLista = (array) => { // defino renderizacion de lista
+const renderLista = (array) => { // defino renderizacion de lista de un conjunto
     listaContenedores.innerHTML = ""; // limpio lista
+    array.sort((e1, e2) => {
+        if (e1.año < e2.año) {
+            return 1;
+        } if (e1.año > e2.año) {
+            return -1;
+        } else {
+            return 0
+        }
+    });
     array.forEach(el => { // por cada elemento en un conjunto
         const li = document.createElement("li"); // creo un li
         li.classList.add(el.categoria, "contenedor"); // le doy clase de contenedor y según la categoria que tiene cada elemento
