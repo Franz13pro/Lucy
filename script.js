@@ -100,7 +100,7 @@ const renderLista = (array) => { // defino renderizacion de lista de un conjunto
         const li = document.createElement("li"); // creo un li
         li.classList.add(el.categoria, "contenedor"); // le doy clase de contenedor y según la categoria que tiene cada elemento
         const h2 = document.createElement("h2"); // creo un h2
-        h2.textContent = `${el.año} - ${el.id}`; // que dice lo mismo que la id del elemento
+        h2.textContent = `${el.id}`; // que dice lo mismo que la id del elemento (si quiero que también diga el año -> h2.textContent = `${el.año} - ${el.id}`)
         listaContenedores.appendChild(li); // agrego el li a la lista
         li.appendChild(h2); // agrego el h2 al li
         h2.addEventListener("click", renderItem); // le doy funcion al h2

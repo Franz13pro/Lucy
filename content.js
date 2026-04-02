@@ -1,9 +1,15 @@
 const statement = {
     texto: [
+        "BIO:",
+        "Me llamo Lucy Riera, nací en Argentina. Trabajo en mi laboratorio creativo de experiencias y  encuentro en la práctica artística un espacio donde desarrollar mi motor vital a través de lenguajes transdisciplinarios como las artes visuales, el audiovisual, la escritura, la gráfica.",
+        "Dirigí películas que tienen como eje el estudio de la imagen. La primera es del 2014, “La caja de arriba del ropero” recorre la obra de Juan Pi, un fotógrafo nacido en Ginebra, Suiza que emigra a Argentina. Recientemente terminé mi segundo largometraje, “Vado in America” que aborda una colección de fotos que surge de una amplia investigación junto a Cristina Boixadós que nos llevó a recuperar las placas fotográficas que habían sido desechadas en Argentina, nos conectó con la región de Ticino, con los descendientes de la familia del fotógrafo en Suiza y además es un trabajo que desborda los límites del cine extendiéndose a otros formatos.",
+        "Recibí algunos reconocimientos y premios en el ámbito del cine como también en el campo de las artes visuales. Publiqué un libro de poesía visual titulado “fósil” y vengo desarrollando otros artefactos. Lo que me atrae es ir detrás de un misterio que conecta todas las cosas desde tiempos inmemoriales.",
         "STATEMENT",
         "Trabajo en mi laboratorio creativo de experimentos, en donde los lenguajes se multiplican. Una bacanal de elementos que se va desplegando como tejido que advierte diversidad de geometrías. Me mueven preguntas sobre los caminos que hemos recorrido a través de la cultura, me interesan las personas y generar conversaciones siempre inconclusas acerca de los vínculos y los procesos de transformación.",
         "Trabajo con el audio-visual cruzando por caminos no lineales y haciendo preguntas sobre los casilleros que a veces terminan siendo trampas. El lenguaje audiovisual ha sido un lugar a donde llegar, pero también he cruzado la vereda hacia la fotografía, la gráfica, la pintura y la escritura. Encuentro en la práctica artística un espacio donde desarrollar mi curiosidad y mi motor vital, a través de la intuición.",
-        "La fotografía fue el primer Aleph en donde me vi espejada. Los misterios de la luz que viaja en el tiempo han sido fuente de inspiración para mis trabajos. Ahondando en la idea de tiempo, comencé a admirar los yacimientos arqueológicos, pinturas y símbolos de las culturas antiguas. Tanto la fotografía como la pintura en una roca, son expresiones humanas que generan pocas respuestas y muchas preguntas. Lo que me atrae es un misterio que conecta todas las cosas desde tiempos inmemoriales."
+        "La fotografía fue el primer Aleph en donde me vi espejada. Los misterios de la luz que viaja en el tiempo han sido fuente de inspiración para mis trabajos. Ahondando en la idea de tiempo, comencé a admirar los yacimientos arqueológicos, pinturas y símbolos de las culturas antiguas. Tanto la fotografía como la pintura en una roca, son expresiones humanas que generan pocas respuestas y muchas preguntas. Lo que me atrae es un misterio que conecta todas las cosas desde tiempos inmemoriales.",
+        "I work in my creative experiment laboratory, where languages multiply. A bacchanal of elements that unfolds like a fabric that reveals a diversity of geometries. I am moved by questions about the paths we have taken through culture, I am interested in people and generating unfinished conversations about links and transformation processes.",
+        "I work with audio-visuals crossing non-linear paths and asking questions about the boxes that sometimes end up being traps. Audiovisual language has been a place to reach, but I have also crossed the path towards photography, graphics, painting and writing. I find in artistic practice a space to develop my curiosity and my vital engine, through intuition. Photography was the first Aleph where I saw myself mirrored. The mysteries of light that travel through time have been a source of inspiration for my work. Delving into the idea of time, I began to admire the archaeological sites, paintings and symbols of ancient cultures. Both photography and painting on a rock are human expressions that generate few answers and many questions. What attracts me is a mystery that connects all things since immemorial time."
     ]
 };
 const contenido = [
@@ -39,8 +45,8 @@ const contenido = [
             "En Argentina rescatan de la basura fotos de finales del siglo XIX que pertenecieron a inmigrantes suizos. Las imágenes viajan a través de territorios, guerras, movimientos humanos, entre América y Europa, en medio de la invención de un Estado nación.",
             "LOGLINE (English):",
             "In Argentina, photos from the late 1800s that belonged to Swiss immigrants were rescued from the trash. The images travel through territories, wars, human movements, between America and Europe, in the middle of the invention of a nation-state.",
-            "Guión y dirección: Lucy Rya",
-            "Producción: Ana Antes y Lucy Rya",
+            "Guión y dirección: Lucy Riera",
+            "Producción: Ana Antes y Lucy Riera",
             "Investigación: Cristina Boixadós",
             "Producción ejecutiva: Ana Apontes",
             "Coproductor: Nicola Genni",
@@ -62,15 +68,18 @@ const contenido = [
             "elojoylaoreja (Argentina)",
             "PicFilm (Suiza)",
             "Apoyos:",
-            "INCAA - Vía Digital (Argentina)",
-            "Beca Fondo Nacional de las Artes (Argentina)",
-            "RSI, Radio Televisión Suiza (Suiza)",
-            "Swiss Film Commission (Suiza)",
-            "Museo del Malcantone, Curio (Suiza)",
+            "INCAA- Instituto de Cine Argentino",
+            "RSI- Radiotelevisione Svizzera",
+            "Mecenazgo",
+            "Santander",
+            "Ticino Film Commission",
+            "Museo del Malcantone",
+            "Fondo Nacional de las Artes",
             ],
         año: "2024",
+        img: ["./img/0/CARTEL-VADO-IN-AMERICA--baja.jpg"],
         video: [
-            '<div style="padding:56.21% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1025132913?h=2390190bd4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="fragmento - VADO IN AMERICA - 2024"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>'
+            '<div style="padding:5% 0 0 0;position:relative;"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xWko385Ias0?si=1Lu4YoiM0GUUl19p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>',
         ],
         link: [{
             ref: "Nota de prensa",
@@ -81,7 +90,7 @@ const contenido = [
         id: "RICORDO DI UN PORTALE INTERDIMENSIONALE",
         categoria: "personales",
         img: ["./img/1/CDA-FR-0003.jpg"],
-        texto: "Il progetto di intervento sulle immagini é di Lucy Rya, le fotografíe sano conservate presso la Biblioteca di Filosofía dell'Universídad Nacional de Córdoba, Argentina. Le fotografíe oríginali sano datate tra il 1869 e il 1950 grazie al lavoro della rícercatríce Cristina Boixadós e alla collaborazione del Museo del Malcantone e della Fondazione Maglio del Malcantone, Cantan Ticino, Suiza.",
+        texto: "Il progetto di intervento sulle immagini é di Lucy Riera, le fotografíe sano conservate presso la Biblioteca di Filosofía dell'Universídad Nacional de Córdoba, Argentina. Le fotografíe oríginali sano datate tra il 1869 e il 1950 grazie al lavoro della rícercatríce Cristina Boixadós e alla collaborazione del Museo del Malcantone e della Fondazione Maglio del Malcantone, Cantan Ticino, Suiza.",
         año: "2023",
     },
     {
@@ -132,8 +141,8 @@ const contenido = [
         texto: [
             "Película, no ficción, 8.22 minutos.",
             "Registro de una acción poética: Pintar la sombra que el Pehuen arrojará sobre la calle, el día 30 de marzo de 2018, en latitud 34.63351202340709, longitud 58.363833530914675, Tiempo Universal Coordinado.",
-            "Realización: Lucy Rya",
-            "Cámara: Milagros Arias y Lucy Rya",
+            "Realización: Lucy Riera",
+            "Cámara: Milagros Arias y Lucy Riera",
             "Producción: Juliana Saravia y Ana Navia",
             "Con el apoyo de la comunidad del barrio de La Boca, Buenos Aires, Argentina",
             "Festivales:",
@@ -171,9 +180,9 @@ const contenido = [
             "Ecocine - Festival Internacional de Cinema Ambiental e Direitos Humanos 2021",
             "Madrid Indie Film Festival • MADRIFF 2020",
             "FIDBA, International Documentary Film Festival, Buenos Aires, Argentina 2020",
-            "Dirección, guión y montaje: Lucy Rya",
+            "Dirección, guión y montaje: Lucy Riera",
             "Diseño de sonido: Andrea Riera",
-            "Producción: Carla Márquez y Lucy Rya",
+            "Producción: Carla Márquez y Lucy Riera",
             "Música: Aníbal Correa",
             "Tema: Ingreso a la hiperbórea del sur",
             "Corrección de color: Chino Flores (SAE)",
@@ -183,7 +192,7 @@ const contenido = [
             "Fernando Rossi",
             "Sebastián Sacur",
             "Kiara Vega",
-            "Lucy Rya",
+            "Lucy Riera",
             "Timelapse:",
             "Fabián Verdugo",
             "Fernando Rossi",
@@ -255,7 +264,7 @@ const contenido = [
             "Declarado de interés cultural por la Honorable Cámara de Diputados de la Provincia de Mendoza, Argentina.",
             "Declarado de interés  por la Universidad Nacional de Cuyo",
             "Declarado de interés Social, Cultural y Regional  el Honorable Concejo Deliberante de San Rafael, Mendoza, Argentina.",
-            "Dirección, guión y montaje: Lucy Rya",
+            "Dirección, guión y montaje: Lucy Riera",
             "Producción, Fotografía y cámara: Bernardo Blanco",
             "Proyecto, investigación y entrevistas: Taty Chanampa",
             "Diseño de sonido: Andrea Riera",
@@ -281,7 +290,7 @@ const contenido = [
         texto: [
             "Película no ficción en desarrollo",
             "Colectora deseante.",
-            "Dirección: Emi Martín y Lucy Rya",
+            "Dirección: Emi Martín y Lucy Riera",
             "Documental en desarrollo sobre transfeminismo y HipHop en Latinoamérica",
             "Apoyos: Fondo Nacional de las Artes, Mecenazgo.",
             "Logline: Raperas latinoamericanas se conectan para hacer un viaje en el tiempo a través del hip hop, descubriendo que el rap de disidencias y mujeres es un lugar desde donde resistir en este cis-tema.",
@@ -298,7 +307,7 @@ const contenido = [
         texto: [
             "Película no ficción, 8.30 minutos.",
             "Argentina, Brasil.",
-            "Gabriel Martinho y Lucy Rya",
+            "Gabriel Martinho y Lucy Riera",
             "Sinopsis: El 8 de agosto de 2018 se votó  en el Senado Nacional de Argentina la ley para la interrupción voluntaria del embarazo (IVE) que ya tenía media sanción del Congreso Nacional. La Campaña Nacional por el Derecho al Aborto Legal, Seguro y Gratuito, convocó a una concentración, denominada 8A, a la cual acudieron una multitud de personas de todas las provincias en Argentina para ponerle el cuerpo a esta ley histórica que marca un punto de inflexión y que en la sociedad ya no tendrá vuelta atrás, más allá de los resultados. “Estamos Acá” fue filmado durante esta concertación, en la Capital Federal argentina. También se realizaron pañuelazos internacionales en la puerta de las embajadas argentinas de Madrid, Barcelona, Vigo, Bilbao, Santiago de Compostela, en algunas ciudades de Italia, en París, en Berlín, Amsterdam, Suecia, Irlanda, Canadá, en Toronto y en Montreal, Chile, México, Perú, en las ciudades brasileñas de Porto Alegre, Belo Horizonte, San Pablo. A las 02.43 de la mañana del 9 de agosto terminó la histórica sesión en el Senado de la Nación Argentina, los resultados fueron por el “no” 38 votos y 31 por el “sí”.",
         ],
         año: "2018",
@@ -310,7 +319,7 @@ const contenido = [
             '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/824365577?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Poesía de la luz cruda"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
         ],
         texto: [
-            "Milagros Arias y Lucy Rya",
+            "Milagros Arias y Lucy Riera",
             "Acción en la Plaza San Martín, Córdoba, Argentina, 2019",
         ],
         año: "2019",
@@ -326,7 +335,7 @@ const contenido = [
             url: "",
         }],
         texto: [
-            "María Fabro, Milagros Arias, Lucy Rya en el Bachillerato popular de Parque Patricios",
+            "María Fabro, Milagros Arias, Lucy Riera en el Bachillerato popular de Parque Patricios",
             "El Laboratorio de Investigación y Creatividad es un área dentro del Bachillerato Popular de Parque Patricios. Durante el 2017 realizamos la experiencia con estudiantes de segundo y tercer año.  El Laboratorio brinda herramientas para el conocimiento territorial a la vida. Hay autores que hablan del uso libre del mundo “abarcar la vida como un todo y producir espacios que son políticos, nunca neutrales”. En ese sentido lo que precisamos es que el aprendizaje se viva como experiencia, no buscando confirmar verdades preestablecidas. Construir una política y pedagogía de lo sensible donde el arte  habilite la intuición, la investigación, la experimentación, la materialización de proyectos, la autogestión. La propuesta se centra en las aptitudes, habilidades, potenciaciones que nos interesa habilitar en las personas y no tanto en los contenidos a incorporar. Potenciar al artista como agente social. El arte dialoga con el contexto.",
         ],
         año: "2018",
@@ -350,7 +359,7 @@ const contenido = [
             },
         ],
         texto: [
-            "La propuesta desde el Laboratorio, fue crear un proyecto que se pueda materializar colectivamente y así fue como surgió la idea de darle continuidad a una revista llevada adelante por Paula Domínguez y Lucy Rya, que había comenzado en el año 2015, desde el área de “Letras”. Luego en el 2016 sumándose el área de “Trabajo, Autogestión y Economía social y solidaria”. Y a partir del 2017 se convirtió en un proyecto llevado adelante por “El Laboratorio de Investigación y Creatividad” que renovó la revista y la conectó con el territorio. Por un lado, los textos se trabajan con temáticas transversales a todas las áreas del bachillerato. Pero además comenzamos a realizar un festival, que dimos en llamar “Festival subjetivo” en donde presentamos la revista a la comunidad, invitando a los vecinos y amigos a compartir una jornada en donde participaron distintos artistas y compartimos comida, música, lecturas y feria. Se convirtió en una herramienta para abrirnos a la comunidad circundante, el barrio, para comunicar nuestros pensamientos y para escuchar las necesidades e ideas, generando intercambio y retroalimentación. Cada número se centró en una temática: ",
+            "La propuesta desde el Laboratorio, fue crear un proyecto que se pueda materializar colectivamente y así fue como surgió la idea de darle continuidad a una revista llevada adelante por Paula Domínguez y Lucy Riera, que había comenzado en el año 2015, desde el área de “Letras”. Luego en el 2016 sumándose el área de “Trabajo, Autogestión y Economía social y solidaria”. Y a partir del 2017 se convirtió en un proyecto llevado adelante por “El Laboratorio de Investigación y Creatividad” que renovó la revista y la conectó con el territorio. Por un lado, los textos se trabajan con temáticas transversales a todas las áreas del bachillerato. Pero además comenzamos a realizar un festival, que dimos en llamar “Festival subjetivo” en donde presentamos la revista a la comunidad, invitando a los vecinos y amigos a compartir una jornada en donde participaron distintos artistas y compartimos comida, música, lecturas y feria. Se convirtió en una herramienta para abrirnos a la comunidad circundante, el barrio, para comunicar nuestros pensamientos y para escuchar las necesidades e ideas, generando intercambio y retroalimentación. Cada número se centró en una temática: ",
             "N1: La palabra, julio 2016",
             "N2: Caminos y encuentros, octubre 2016",
             "N3 Salud, abril 2017",
@@ -400,7 +409,7 @@ const contenido = [
         ],
         texto: [
             "Animación con Arena",
-            "Martina Carminati, Fede Broz y Lucy Rya",
+            "Martina Carminati, Fede Broz y Lucy Riera",
         ],
         año: "2016",
     },    
