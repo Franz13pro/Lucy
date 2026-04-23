@@ -40,12 +40,14 @@ const renderItem = (e) => { // defino la renderización de items del listado
         }
 
         if (contenidoItem.video) { // agrego videos, si hay
-            contenidoItem.video.forEach(video => {
-                const divVideo = document.createElement("div");
-                divVideo.classList.add("responsive");
-                divVideo.innerHTML = video;
-                divItemIzq.appendChild(divVideo);
+            const divVideo = document.createElement("div");
+            contenidoItem.video.forEach(e => {
+                const video = document.createElement("div")
+                video.classList.add("responsive");
+                video.innerHTML = e;
+                divVideo.appendChild(video);
             });
+            divItemIzq.appendChild(divVideo);
         }
         
         if (contenidoItem.img) { // agrego imágenes, si hay
@@ -70,12 +72,26 @@ const renderItem = (e) => { // defino la renderización de items del listado
                     divTexto.appendChild(p); // incluyo el p al div
                 });
             } else {
-                const p = document.createElement("p"); // const p
-                p.innerHTML = contenidoItem.texto; // le doy texto al p igual al texto del contenido
-                divTexto.appendChild(p); // incluyo el p al di
+                divTexto.innerHTML = contenidoItem.texto; // le doy texto al p igual al texto del contenido
             }
             divItemDer.appendChild(divTexto)
         }
+        // VVVFORMA EN DESUSO DE RENDERIZAR EL TEXTO DE CADA OBJETOVVV
+        // if (contenidoItem.texto) {
+        //     const divTexto = document.createElement("div"); // creo una div de texto
+        //     if (typeof(contenidoItem.texto) === "object") {
+        //         contenidoItem.texto.forEach(el => { // por cada texto del contenido
+        //             const p = document.createElement("p"); // const p
+        //             p.innerHTML = el; // le doy contenido al p igual al HTML del contenido
+        //             divTexto.appendChild(p); // incluyo el p al div
+        //         });
+        //     } else {
+        //         const p = document.createElement("p"); // const p
+        //         p.innerHTML = contenidoItem.texto; // le doy texto al p igual al texto del contenido
+        //         divTexto.appendChild(p); // incluyo el p al di
+        //     }
+        //     divItemDer.appendChild(divTexto)
+        // }
 
 
         divItem.append(divItemIzq); // incluyo estos elementos en el div
@@ -122,11 +138,16 @@ const renderStatement = () => {
         img.src = "./img/STATEMENT.jpg";
         img.classList.add("responsive");
         divStatIzq.appendChild(img);
-        statement.texto.forEach(el => {
-            const p = document.createElement("p");
-            p.innerText = el;
-            divStatDer.appendChild(p);
-        });
+        const textoDelStatement = document.createElement("div");
+        textoDelStatement.innerHTML = statement.texto
+        divStatDer.appendChild(textoDelStatement);
+
+        // VVVFORMA EN DESUSO DE RENDERIZAR EL TEXTO DEL STATEMENTVVV
+        // statement.texto.forEach(el => {
+        //     const p = document.createElement("p");
+        //     p.innerText = el;
+        //     divStatDer.appendChild(p);
+        // });
 
         div.append(divStatIzq, divStatDer);
         listaContenedores.parentNode.prepend(div);
@@ -134,18 +155,18 @@ const renderStatement = () => {
     // listaContenedores.appendChild(div);
 };
 
+const contenidoInicial = contenido.filter(el=>el.categoria=="personales") //predefino lo que quiero que se renderice inicialmente, por ahora, el contenido "personal"
+
 const navLinkFunc = (e) => { // defino la selección de categorias
-    if (e.target.href.includes("all")) { // si el link hace referencia a all
+    if (e.target.href.includes("all")) { // si el link seleccionado hace referencia a "all"
         renderStatement();
-        renderLista(contenido); // renderizo todo el contenido
+        renderLista(contenidoInicial); // renderizo todo el contenido inicial
     } else if (e.target.href.includes("cine")) {
         if (listaContenedores.parentNode.childElementCount > 1) {
             listaContenedores.parentNode.firstChild.remove();
         }
         const contenidoRubro = contenido.filter(item=>e.target.href.includes(item.rubro)); // defino un listado filtrado por rubro
         renderLista(contenidoRubro); // renderizo este listado
-    // } else if (e.target.href.includes("statement")) {
-    //     renderStatement()
     } else { // sino...
         if (listaContenedores.parentNode.childElementCount > 1) {
             listaContenedores.parentNode.firstChild.remove();
@@ -159,5 +180,6 @@ navLinks.forEach(el=>{ // por cada link de la barra de nav
     el.addEventListener("click", navLinkFunc); // le doy función de seleccionar categorías
 });
 
-renderLista(contenido); // renderizo el listado completo
-// contenido.forEach(el=>console.log(el.id))
+renderLista(contenidoInicial); // renderizo el listado inicial predefinido
+// contenido.forEach(el=>console.log(el.categoria))
+// console.log(typeof(statement.texto))

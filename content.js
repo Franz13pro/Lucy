@@ -1,18 +1,99 @@
 const statement = {
-    texto: [
-        "BIO:",
-        "Me llamo Lucy Riera, nací en Argentina. Trabajo en mi laboratorio creativo de experiencias y  encuentro en la práctica artística un espacio donde desarrollar mi motor vital a través de lenguajes transdisciplinarios como las artes visuales, el audiovisual, la escritura, la gráfica.",
-        "Dirigí películas que tienen como eje el estudio de la imagen. La primera es del 2014, “La caja de arriba del ropero” recorre la obra de Juan Pi, un fotógrafo nacido en Ginebra, Suiza que emigra a Argentina. Recientemente terminé mi segundo largometraje, “Vado in America” que aborda una colección de fotos que surge de una amplia investigación junto a Cristina Boixadós que nos llevó a recuperar las placas fotográficas que habían sido desechadas en Argentina, nos conectó con la región de Ticino, con los descendientes de la familia del fotógrafo en Suiza y además es un trabajo que desborda los límites del cine extendiéndose a otros formatos.",
-        "Recibí algunos reconocimientos y premios en el ámbito del cine como también en el campo de las artes visuales. Publiqué un libro de poesía visual titulado “fósil” y vengo desarrollando otros artefactos. Lo que me atrae es ir detrás de un misterio que conecta todas las cosas desde tiempos inmemoriales.",
-        "STATEMENT",
-        "Trabajo en mi laboratorio creativo de experimentos, en donde los lenguajes se multiplican. Una bacanal de elementos que se va desplegando como tejido que advierte diversidad de geometrías. Me mueven preguntas sobre los caminos que hemos recorrido a través de la cultura, me interesan las personas y generar conversaciones siempre inconclusas acerca de los vínculos y los procesos de transformación.",
-        "Trabajo con el audio-visual cruzando por caminos no lineales y haciendo preguntas sobre los casilleros que a veces terminan siendo trampas. El lenguaje audiovisual ha sido un lugar a donde llegar, pero también he cruzado la vereda hacia la fotografía, la gráfica, la pintura y la escritura. Encuentro en la práctica artística un espacio donde desarrollar mi curiosidad y mi motor vital, a través de la intuición.",
-        "La fotografía fue el primer Aleph en donde me vi espejada. Los misterios de la luz que viaja en el tiempo han sido fuente de inspiración para mis trabajos. Ahondando en la idea de tiempo, comencé a admirar los yacimientos arqueológicos, pinturas y símbolos de las culturas antiguas. Tanto la fotografía como la pintura en una roca, son expresiones humanas que generan pocas respuestas y muchas preguntas. Lo que me atrae es un misterio que conecta todas las cosas desde tiempos inmemoriales.",
-        "I work in my creative experiment laboratory, where languages multiply. A bacchanal of elements that unfolds like a fabric that reveals a diversity of geometries. I am moved by questions about the paths we have taken through culture, I am interested in people and generating unfinished conversations about links and transformation processes.",
-        "I work with audio-visuals crossing non-linear paths and asking questions about the boxes that sometimes end up being traps. Audiovisual language has been a place to reach, but I have also crossed the path towards photography, graphics, painting and writing. I find in artistic practice a space to develop my curiosity and my vital engine, through intuition. Photography was the first Aleph where I saw myself mirrored. The mysteries of light that travel through time have been a source of inspiration for my work. Delving into the idea of time, I began to admire the archaeological sites, paintings and symbols of ancient cultures. Both photography and painting on a rock are human expressions that generate few answers and many questions. What attracts me is a mystery that connects all things since immemorial time."
-    ]
+    texto: 
+    `<p style="text-align: justify;"><strong>Espa&ntilde;ol:</strong></p>
+    <p style="text-align: justify;"><strong>Biograf&iacute;a</strong></p>
+    <p style="text-align: justify;"><span style="font-weight: 400;">Me llamo Lucy Riera, nac&iacute; en Argentina. Trabajo en mi laboratorio creativo de experiencias y&nbsp; encuentro en la pr&aacute;ctica art&iacute;stica un espacio donde desarrollar mi motor vital a trav&eacute;s de lenguajes transdisciplinarios como las artes visuales, el audiovisual, la escritura, la gr&aacute;fica.&nbsp;</span></p>
+    <p style="text-align: justify;"><span style="font-weight: 400;">Dirig&iacute; pel&iacute;culas que tienen como eje el estudio de la imagen. La primera es del 2014, &ldquo;La caja de arriba del ropero&rdquo; recorre la obra de Juan Pi, un fot&oacute;grafo nacido en Ginebra, Suiza que emigra a Argentina. Recientemente termin&eacute; mi segundo largometraje, &ldquo;Vado in America&rdquo; que aborda una colecci&oacute;n de fotos que surge de una amplia investigaci&oacute;n junto a Cristina Boixad&oacute;s que nos llev&oacute; a recuperar las placas fotogr&aacute;ficas que hab&iacute;an sido desechadas en Argentina, nos conect&oacute; con la regi&oacute;n de Ticino, con los descendientes de la familia del fot&oacute;grafo en Suiza y adem&aacute;s es un trabajo que desborda los l&iacute;mites del cine extendi&eacute;ndose a otros formatos.</span></p>
+    <p style="text-align: justify;"><span style="font-weight: 400;">Recib&iacute; algunos reconocimientos y premios en el &aacute;mbito del cine como tambi&eacute;n en el campo de las artes visuales. Publiqu&eacute; un libro de poes&iacute;a visual titulado &ldquo;f&oacute;sil&rdquo; y vengo desarrollando otros artefactos. Lo que me atrae es ir detr&aacute;s de un misterio que conecta todas las cosas desde tiempos inmemoriales.</span></p>
+    <p style="text-align: justify;"><strong>English:</strong></p>
+    <p style="text-align: justify;"><strong>Biography&nbsp;</strong></p>
+    <p style="text-align: justify;"><span style="font-weight: 400;">I work in my creative experiment laboratory, where languages multiply. A bacchanal of elements that unfolds like a fabric that reveals a diversity of geometries. I am moved by questions about the paths we have taken through culture, I am interested in people and generating unfinished conversations about links and transformation processes.</span></p>
+    <p style="text-align: justify;"><span style="font-weight: 400;">I work with audio-visuals crossing non-linear paths and asking questions about the boxes that sometimes end up being traps. Audiovisual language has been a place to reach, but I have also crossed the path towards photography, graphics, painting and writing. I find in artistic practice a space to develop my curiosity and my vital engine, through intuition. Photography was the first Aleph where I saw myself mirrored. The mysteries of light that travel through time have been a source of inspiration for my work. Delving into the idea of time, I began to admire the archaeological sites, paintings and symbols of ancient cultures. Both photography and painting on a rock are human expressions that generate few answers and many questions. What attracts me is a mystery that connects all things since immemorial time.</span></p>`
+
+    // texto: [
+    //     "BIO:",
+    //     "Me llamo Lucy Riera, nací en Argentina. Trabajo en mi laboratorio creativo de experiencias y  encuentro en la práctica artística un espacio donde desarrollar mi motor vital a través de lenguajes transdisciplinarios como las artes visuales, el audiovisual, la escritura, la gráfica.",
+    //     "Dirigí películas que tienen como eje el estudio de la imagen. La primera es del 2014, “La caja de arriba del ropero” recorre la obra de Juan Pi, un fotógrafo nacido en Ginebra, Suiza que emigra a Argentina. Recientemente terminé mi segundo largometraje, “Vado in America” que aborda una colección de fotos que surge de una amplia investigación junto a Cristina Boixadós que nos llevó a recuperar las placas fotográficas que habían sido desechadas en Argentina, nos conectó con la región de Ticino, con los descendientes de la familia del fotógrafo en Suiza y además es un trabajo que desborda los límites del cine extendiéndose a otros formatos.",
+    //     "Recibí algunos reconocimientos y premios en el ámbito del cine como también en el campo de las artes visuales. Publiqué un libro de poesía visual titulado “fósil” y vengo desarrollando otros artefactos. Lo que me atrae es ir detrás de un misterio que conecta todas las cosas desde tiempos inmemoriales.",
+    //     "STATEMENT",
+    //     "Trabajo en mi laboratorio creativo de experimentos, en donde los lenguajes se multiplican. Una bacanal de elementos que se va desplegando como tejido que advierte diversidad de geometrías. Me mueven preguntas sobre los caminos que hemos recorrido a través de la cultura, me interesan las personas y generar conversaciones siempre inconclusas acerca de los vínculos y los procesos de transformación.",
+    //     "Trabajo con el audio-visual cruzando por caminos no lineales y haciendo preguntas sobre los casilleros que a veces terminan siendo trampas. El lenguaje audiovisual ha sido un lugar a donde llegar, pero también he cruzado la vereda hacia la fotografía, la gráfica, la pintura y la escritura. Encuentro en la práctica artística un espacio donde desarrollar mi curiosidad y mi motor vital, a través de la intuición.",
+    //     "La fotografía fue el primer Aleph en donde me vi espejada. Los misterios de la luz que viaja en el tiempo han sido fuente de inspiración para mis trabajos. Ahondando en la idea de tiempo, comencé a admirar los yacimientos arqueológicos, pinturas y símbolos de las culturas antiguas. Tanto la fotografía como la pintura en una roca, son expresiones humanas que generan pocas respuestas y muchas preguntas. Lo que me atrae es un misterio que conecta todas las cosas desde tiempos inmemoriales.",
+    //     "I work in my creative experiment laboratory, where languages multiply. A bacchanal of elements that unfolds like a fabric that reveals a diversity of geometries. I am moved by questions about the paths we have taken through culture, I am interested in people and generating unfinished conversations about links and transformation processes.",
+    //     "I work with audio-visuals crossing non-linear paths and asking questions about the boxes that sometimes end up being traps. Audiovisual language has been a place to reach, but I have also crossed the path towards photography, graphics, painting and writing. I find in artistic practice a space to develop my curiosity and my vital engine, through intuition. Photography was the first Aleph where I saw myself mirrored. The mysteries of light that travel through time have been a source of inspiration for my work. Delving into the idea of time, I began to admire the archaeological sites, paintings and symbols of ancient cultures. Both photography and painting on a rock are human expressions that generate few answers and many questions. What attracts me is a mystery that connects all things since immemorial time."
+    // ]
 };
 const contenido = [
+    // VVVMODELO DE OBJETO PARA COPIAR!VVV
+    // {
+    //     id: "PONER EL TITULO",
+    //     año: "OBVIO",
+    //     categoria: "personales/O/colectivos",
+    //     rubro: (S/N)"cine",
+    //     link: [{
+    //         ref: "LO QUE SE LEE",
+    //         url: "https://LINK.BLE",
+    //     }],
+    //     texto: 
+    //     `PEGAR HTML ACÁ`,
+    //     video: [
+    //         'EN CASO DE VIMEO SOLO COPIAR Y PEGAR /O/ YOUTUBE:<div style="position: relative;"><iframe QUITAR WIDTH Y HEIGHT></iframe></div>',
+    //     ],
+    //     img: ["./img/#NUMERODECARPETA#/nombredelarchivo.jpg"],
+    // },
+    {
+        id: "IMPRESSIONI DALL’ARGENTINA",
+        año: "2026",
+        categoria: "personales",
+        link: [{
+            ref: "Link",
+            url: "https://www.museodelmalcantone.ch/programma-2024/giornata-svizzera-dei-mulini",
+        }],
+        texto: 
+        `<p><strong>Espa&ntilde;ol:</strong></p>
+        <p><strong>Im&aacute;genes salvajes para </strong><strong><em>Impressioni dall&rsquo;Argentina</em></strong></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">En la escritura de Elvira aparece un uso persistente de la met&aacute;fora, lo que me llev&oacute; a trabajar con &ldquo;im&aacute;genes salvajes&rdquo;. Me centr&eacute; en animales trasladados a Am&eacute;rica por procesos coloniales como palomas, liebres, truchas arco&iacute;ris, jabal&iacute;es y en un &ldquo;insectario&rdquo; presente en sus cartas: gusanos de seda, mantis, ara&ntilde;as, ef&iacute;meras.</span></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">Para la portada, imagin&eacute; a Elvira tejiendo una red de palabras, met&aacute;foras y deseos de permanencia: una trama de escritura que a&uacute;n resuena en el presente.</span></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">La figura del arcano </span><em><span style="font-weight: 400;">La Fuerza</span></em><span style="font-weight: 400;"> (Tarot de Marsella) aparece como un eco: una mujer que enfrenta y contiene a la bestia. Una imagen que condensa una forma de habitar el mundo en tensi&oacute;n con las normas de su tiempo.</span></p>
+        <p style="text-align: justify;"><strong>T&eacute;cnica: </strong><span style="font-weight: 400;">Las ilustraciones fueron realizadas a partir de negativos fotogr&aacute;ficos mediante cianotipia, con su caracter&iacute;stico azul de Prusia y luego intervenidas con grabado en madera. El resultado es una serie de originales m&uacute;ltiples sobre papel, digitalizados para su reproducci&oacute;n en el libro.</span></p>
+        <p><strong>English:</strong></p>
+        <p><strong>Wild Images for </strong><strong><em>Impressioni dall&rsquo;Argentina</em></strong></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">In Elvira&rsquo;s writing, metaphor appears persistently, which led me to work with &ldquo;wild images.&rdquo; I focused on animals transported to the Americas through colonial processes as pigeons, hares, rainbow trout, wild boar, as well as on an &ldquo;insectarium&rdquo; present in her letters: silkworms, mantises, spiders, mayflies.</span></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">For the cover, I imagined Elvira weaving a web of words, metaphors, and a desire to endure: a fabric of epistolary writing that continues to resonate in the present.</span></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">The figure of </span><em><span style="font-weight: 400;">Strength</span></em><span style="font-weight: 400;"> (from the Marseille Tarot) appears as an echo: a woman confronting and containing the beast. An image that condenses a way of inhabiting the world in tension with the norms of her time.</span></p>
+        <p style="text-align: justify;"><strong>Technique: </strong><span style="font-weight: 400;">The illustrations were created from photographic negatives using cyanotype, producing its characteristic Prussian blue, and later intervened with woodcut. The result is a series of original multiples on paper, digitized for reproduction in the book.</span></p>`,
+        img: ["./img/10/1 tapa- IMPRESSIONI DALLÔÇÖARGENTINA.png","./img/10/2 i-bigatti-bellissimi.png","./img/10/3 la-forza-(tarot-XI).png"],
+    },
+    {
+        id: "ESTRANIAZIONE",
+        categoria: "personales",
+        link: [{
+            ref: "Prensa",
+            url: "https://www.museodelmalcantone.ch/esposizione-temporanea",
+        }],
+        texto: 
+        `<p><strong>Espa&ntilde;ol:</strong></p>
+        <p><strong>Estraniazione. Fotograf&iacute;as de un emigrante malcantonés en Argentina</strong></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">Esta exposici&oacute;n forma parte de un proyecto m&aacute;s amplio en torno a la familia Righetti, emigrantes del cant&oacute;n Ticino en Argentina a fines del siglo XIX, que incluye un documental, una video performance de Lucy Riera y una publicaci&oacute;n.</span></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">El proyecto surge a partir del hallazgo de m&aacute;s de 500 placas fotogr&aacute;ficas en Argentina en 2014, dando inicio a una investigaci&oacute;n desarrollada junto a la historiadora Cristina Boixad&oacute;s. Las im&aacute;genes, tomadas entre Argentina y el Malcantone por Pietro y Am&eacute;rico Righetti, trazan un recorrido entre territorios, revelando continuidades y desplazamientos en la experiencia migratoria.</span></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">A trav&eacute;s de estas fotograf&iacute;as, se activan relatos que cruzan lo familiar, el oficio y el territorio. La historia de la familia &mdash;ligada a la herrer&iacute;a, al estuco y a los saberes transmitidos entre generaciones&mdash; se despliega como un entramado entre Europa y Am&eacute;rica, donde las im&aacute;genes funcionan no solo como registro, sino como espacio de memoria y relectura.</span></p>
+        <p><strong>English:</strong></p>
+        <p><strong>Estraniazione. Photographs of a Malcantone Emigrant in Argentina</strong></p>
+        <p><span style="font-weight: 400;">This exhibition is part of a broader project centered on the Righetti family, emigrants from the canton of Ticino to Argentina at the end of the 19th century. The project also includes a documentary, a video performance by Lucy Riera, and a publication.</span></p>
+        <p><span style="font-weight: 400;">The project originated with the discovery of more than 500 photographic glass plates in Argentina in 2014, leading to an extended research process developed in collaboration with historian Cristina Boixad&oacute;s. Taken in both Argentina and the Malcantone by Pietro and Am&eacute;rico Righetti, the images trace a movement between territories, revealing continuities and displacements within the migratory experience.</span></p>
+        <p><span style="font-weight: 400;">Through these photographs, narratives emerge that intertwine family history, craft, and place. The family&rsquo;s story&mdash;linked to metalwork, stucco, and skills passed down through generations&mdash;unfolds as a network between Europe and South America, where images function not only as records but as sites of memory and reinterpretation.</span></p>
+        <p><strong>Investigaci&oacute;n y textos:</strong><span style="font-weight: 400;"> Cristina Boixad&oacute;s, Lucy Riera, Damiano Robbiani&nbsp;</span></p>
+        <p><strong>Con la colaboraci&oacute;n de:</strong><span style="font-weight: 400;"> Maglio del Malcantone, Biblioteca de Filosof&iacute;a, Humanidades y Psicolog&iacute;a, Universidad Nacional de C&oacute;rdoba, Argentina, Ana Apontes&nbsp;</span></p>
+        <p><strong>Preimpresi&oacute;n:</strong><span style="font-weight: 400;"> Taiana Muzzano, Damiano Robbiani&nbsp;</span></p>
+        <p><strong>Con el apoyo de:&nbsp;</strong></p>
+        <p><span style="font-weight: 400;">Fundaci&oacute;n Aldo y Cele Dacc&ograve; para el Progreso, Lugano&nbsp;</span></p>
+        <p><span style="font-weight: 400;">Fundaci&oacute;n Pasquale Lucchini, Lugano&nbsp;</span></p>
+        <p><span style="font-weight: 400;">Ministerio de Cultura, Argentina&nbsp;</span></p>
+        <p><span style="font-weight: 400;">New-Jet Ponteggi Sagl&nbsp;</span></p>
+        <p><span style="font-weight: 400;">Municipio de Miglieglia </span></p>`,
+        año: "2024",
+        img: ["./img/9/1-Estranianione-Mostra-Maglio.jpg", "./img/9/2-Estranianione-Mostra-Maglio-3.jpg", "./img/9/3 -Estranianione-Mostra-Maglio-2.jpg"],
+    },
     {
         id: "TEATRO DE MÁQUINAS",
         categoria: "personales",
@@ -20,13 +101,28 @@ const contenido = [
             ref: "Video performances",
             url: "https://vimeo.com/showcase/10394917",
         }],
-        texto: [
-            "Video performances y video instalación",
-            "Lugar de realización: Comuna de Aranno, Cantón Ticino, Suiza. Año 2023",
-            "Este es el registro de la video-performance titulada “Teatro de Máquinas” se desarrolló en el marco de la muestra “Malcantone 1900, bajo la mirada de un emigrante”, organizada por el Museo de Curio (Suiza) junto con su director Damiano Robbiani, gracias a la colaboración de la Fundación “Maglio del Malcantone” y basado en la investigación de la historiadora Cristina Boixadós (Argentina)",
-            "La video-instalación se realizará en septiembre de 2025 en el Maglio del Malcantone, Suiza."
-        ],
-        año: "2023 / 2024",
+        texto: 
+        `<p><strong>Espa&ntilde;ol:</strong></p>
+        <p><strong>Teatro de M&aacute;quinas. Videoperformance</strong></p>
+        <p style="text-align: right;"><span style="font-weight: 400;">&ldquo;La verdadera imagen del pasado pasa s&uacute;bitamente. S&oacute;lo en la imagen, que relampaguea de una vez para siempre en el instante de su cognoscibilidad, se deja fijar el pasado&rdquo;&nbsp;</span></p>
+        <p style="text-align: right;"><span style="font-weight: 400;">Walter Benjamin&nbsp;</span></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">Este dispositivo perform&aacute;tico, mediado por la m&aacute;quina, opera en capas: memoria colectiva, zonas de sombra y reg&iacute;menes de simulaci&oacute;n donde se vuelve inestable la distinci&oacute;n entre lo real y lo imaginario.</span></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">La video performance se estructura como un bucle de reactivaciones: la escena original &mdash;una fotograf&iacute;a de hace m&aacute;s de un siglo&mdash;, su reinscripci&oacute;n en el presente a trav&eacute;s del video y su posterior circulaci&oacute;n como imagen reproducida. En ese tr&aacute;nsito, la imagen deja de funcionar como registro y se vuelve operaci&oacute;n: un artificio que expone sus propias condiciones de producci&oacute;n.</span></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">La acci&oacute;n no ocurre frente a la c&aacute;mara, sino con ella. Se construye en esa relaci&oacute;n. Resulta ser una imagen fantasm&aacute;tica, desplazada de su tiempo, que se activa como imagen-acci&oacute;n. Un simulacro que, al mismo tiempo, abre una dimensi&oacute;n ritual: un umbral donde cuerpos e im&aacute;genes se desdoblan y dejan de coincidir consigo mismos.</span></p>
+        <p><span style="font-weight: 400;"><strong>English:</strong>&nbsp;</span></p>
+        <p><strong>Machine Theater. Video Performance&nbsp;</strong></p>
+        <p style="text-align: right;"><span style="font-weight: 400;">&ldquo;The true picture of the past flits by. The past can be seized only as an image which flashes up at the instant when it can be recognized and is never seen again.&rdquo; </span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">Walter Benjamin</span></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">This performative device, mediated by the machine, operates in layers: collective memory, shadow zones, and regimes of simulation where the distinction between the real and the imaginary becomes unstable.</span></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">The video performance unfolds as a loop of reactivations: the original scene&mdash;a photograph taken more than a century ago&mdash;its reinscription in the present through video, and its subsequent circulation as a reproduced image. In this process, the image ceases to function as a record and becomes an operation: an artifact that exposes its own conditions of production.</span></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">The action does not take place in front of the camera, but with it. It is constructed within that relationship.</span></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">The result is a ghostly image, displaced from its original time, activated as image-action. A simulacrum that, at the same time, opens onto a ritual dimension: a threshold where bodies and images split and no longer coincide with themselves.</span></p>`,
+        // texto: [
+        //     "Video performances y video instalación",
+        //     "Lugar de realización: Comuna de Aranno, Cantón Ticino, Suiza. Año 2023",
+        //     "Este es el registro de la video-performance titulada “Teatro de Máquinas” se desarrolló en el marco de la muestra “Malcantone 1900, bajo la mirada de un emigrante”, organizada por el Museo de Curio (Suiza) junto con su director Damiano Robbiani, gracias a la colaboración de la Fundación “Maglio del Malcantone” y basado en la investigación de la historiadora Cristina Boixadós (Argentina)",
+        //     "La video-instalación se realizará en septiembre de 2025 en el Maglio del Malcantone, Suiza."
+        // ],
+        año: "2024",
         video: [
             '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/955688755?h=d67d8ab528" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
         ]
@@ -35,51 +131,74 @@ const contenido = [
         id: "VADO IN AMERICA",
         categoria: "personales",
         rubro: "cine",
-        texto: [
-            "Película, no ficción, 90 minutos.",
-            "Formato: Super8 y digital.",
-            "En etapa de postproducción.",
-            "Coproducción: Argentina, Suiza.",
-            "Clínica de guión con Gustavo Fontán.",
-            "LOGLINE (Español):",
-            "En Argentina rescatan de la basura fotos de finales del siglo XIX que pertenecieron a inmigrantes suizos. Las imágenes viajan a través de territorios, guerras, movimientos humanos, entre América y Europa, en medio de la invención de un Estado nación.",
-            "LOGLINE (English):",
-            "In Argentina, photos from the late 1800s that belonged to Swiss immigrants were rescued from the trash. The images travel through territories, wars, human movements, between America and Europe, in the middle of the invention of a nation-state.",
-            "Guión y dirección: Lucy Riera",
-            "Producción: Ana Antes y Lucy Riera",
-            "Investigación: Cristina Boixadós",
-            "Producción ejecutiva: Ana Apontes",
-            "Coproductor: Nicola Genni",
-            "Montaje: Mario Bocchicchio",
-            "Diseño de Sonido: Andre Riera",
-            "Asistente integral: Federico Robles",
-            "Mezcla: Riccardo Studer",
-            "Músico: Sergio Lavia",
-            "Protagonistas:",
-            "Cristina Boixadós",
-            "Paolo Righetti",
-            "Conversaciones en orden de aparición:",
-            "Analía Righetti",
-            "Ruth Rivas",
-            "Malvina González Lanfir",
-            "Ana Sofía Maizón",
-            "Adriano Righetti",
-            "Casas productoras:",
-            "elojoylaoreja (Argentina)",
-            "PicFilm (Suiza)",
-            "Apoyos:",
-            "INCAA- Instituto de Cine Argentino",
-            "RSI- Radiotelevisione Svizzera",
-            "Mecenazgo",
-            "Santander",
-            "Ticino Film Commission",
-            "Museo del Malcantone",
-            "Fondo Nacional de las Artes",
-            ],
-        año: "2024",
+        texto: 
+        `<p><span style="font-weight: 400;">Pel&iacute;cula, no ficci&oacute;n, 90 minutos. Formato: Super 8 y digital. Coproducci&oacute;n: Argentina, Suiza.</span></p>
+        <p><strong>Logline</strong></p>
+        <p><strong>Espa&ntilde;ol:</strong></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">En Argentina rescatan de la basura fotos de finales del siglo XIX que pertenecieron a inmigrantes suizos. Las im&aacute;genes viajan a trav&eacute;s de territorios, guerras, movimientos humanos, entre Am&eacute;rica y Europa, en medio de la invenci&oacute;n de un Estado naci&oacute;n.</span></p>
+        <p><strong>Logline&nbsp;</strong></p>
+        <p><strong>English:</strong></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">In Argentina, photos from the late 1800s that belonged to Swiss immigrants were rescued from the trash. The images travel through territories, wars, human movements, between America and Europe, in the middle of the invention of a nation-state.</span></p>
+        <p><span style="font-weight: 400;">Gui&oacute;n y direcci&oacute;n: Lucy Riera</span></p>
+        <p><span style="font-weight: 400;">Producci&oacute;n: Ana Apontes y Lucy Riera</span></p>
+        <p><span style="font-weight: 400;">Investigaci&oacute;n: Cristina Boixad&oacute;s</span></p>
+        <p><span style="font-weight: 400;">Producci&oacute;n ejecutiva: Ana Apontes</span></p>
+        <p><span style="font-weight: 400;">Coproductor: Nicola Genni</span></p>
+        <p><span style="font-weight: 400;">Montaje: Mario Bocchicchio</span></p>
+        <p><span style="font-weight: 400;">Dise&ntilde;o de Sonido: Andre Riera</span></p>
+        <p><span style="font-weight: 400;">Asistente integral: Federico Robles</span></p>
+        <p><span style="font-weight: 400;">Mezcla: Riccardo Studer</span></p>
+        <p><span style="font-weight: 400;">M&uacute;sico: Sergio Lavia</span></p>
+        <p><span style="font-weight: 400;">Protagonistas: Cristina Boixad&oacute;s y Paolo Righetti</span></p>
+        <p><span style="font-weight: 400;">Conversaciones en orden de aparici&oacute;n: Anal&iacute;a Righetti, Ruth Rivas, Malvina Gonz&aacute;lez Lanfir, Ana Sof&iacute;a Maiz&oacute;n, Adriano Righetti</span></p>
+        <p><span style="font-weight: 400;">Casas productoras: elojoylaoreja (Argentina), PicFilm (Suiza)</span></p>
+        <p><span style="font-weight: 400;">Apoyos: INCAA- Instituto de Cine Argentino, RSI- Radiotelevisione Svizzera,&nbsp;Mecenazgo, Santander, Ticino Film Commission, Museo del Malcantone, Fondo Nacional de las Artes</span></p>`,
+        
+        // texto: [
+        //     "Película, no ficción, 90 minutos.",
+        //     "Formato: Super8 y digital.",
+        //     "En etapa de postproducción.",
+        //     "Coproducción: Argentina, Suiza.",
+        //     "Clínica de guión con Gustavo Fontán.",
+        //     "LOGLINE (Español):",
+        //     "En Argentina rescatan de la basura fotos de finales del siglo XIX que pertenecieron a inmigrantes suizos. Las imágenes viajan a través de territorios, guerras, movimientos humanos, entre América y Europa, en medio de la invención de un Estado nación.",
+        //     "LOGLINE (English):",
+        //     "In Argentina, photos from the late 1800s that belonged to Swiss immigrants were rescued from the trash. The images travel through territories, wars, human movements, between America and Europe, in the middle of the invention of a nation-state.",
+        //     "Guión y dirección: Lucy Riera",
+        //     "Producción: Ana Antes y Lucy Riera",
+        //     "Investigación: Cristina Boixadós",
+        //     "Producción ejecutiva: Ana Apontes",
+        //     "Coproductor: Nicola Genni",
+        //     "Montaje: Mario Bocchicchio",
+        //     "Diseño de Sonido: Andre Riera",
+        //     "Asistente integral: Federico Robles",
+        //     "Mezcla: Riccardo Studer",
+        //     "Músico: Sergio Lavia",
+        //     "Protagonistas:",
+        //     "Cristina Boixadós",
+        //     "Paolo Righetti",
+        //     "Conversaciones en orden de aparición:",
+        //     "Analía Righetti",
+        //     "Ruth Rivas",
+        //     "Malvina González Lanfir",
+        //     "Ana Sofía Maizón",
+        //     "Adriano Righetti",
+        //     "Casas productoras:",
+        //     "elojoylaoreja (Argentina)",
+        //     "PicFilm (Suiza)",
+        //     "Apoyos:",
+        //     "INCAA- Instituto de Cine Argentino",
+        //     "RSI- Radiotelevisione Svizzera",
+        //     "Mecenazgo",
+        //     "Santander",
+        //     "Ticino Film Commission",
+        //     "Museo del Malcantone",
+        //     "Fondo Nacional de las Artes",
+        //     ],
+        año: "2027",
         img: ["./img/0/CARTEL-VADO-IN-AMERICA--baja.jpg"],
         video: [
-            '<div style="padding:5% 0 0 0;position:relative;"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xWko385Ias0?si=1Lu4YoiM0GUUl19p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>',
+            '<div style="position: relative;"><iframe style="aspect-ratio: 16 / 9; width: 100% !important;" src="https://www.youtube-nocookie.com/embed/xWko385Ias0?si=1Lu4YoiM0GUUl19p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>',
         ],
         link: [{
             ref: "Nota de prensa",
@@ -331,7 +450,7 @@ const contenido = [
             '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/248171969?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Laboratorio de Investigación y Creatividad - 2017"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
         ],
         link: [{
-            ref: "Nota: ( me falta el link)",
+            ref: "",
             url: "",
         }],
         texto: [
@@ -354,7 +473,7 @@ const contenido = [
             url: "https://issuu.com/feriasubjetiva",
             },
             {
-               ref: "Nota: ( me falta el link)",
+               ref: "",
                url: "",
             },
         ],
