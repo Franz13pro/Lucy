@@ -196,7 +196,7 @@ const contenido = [
         //     "Fondo Nacional de las Artes",
         //     ],
         año: "2027",
-        img: ["./img/0/CARTEL-VADO-IN-AMERICA--baja.jpg"],
+        img: ["./img/0/CARTEL-VADO-IN-AMERICA--WEB.jpg"],
         video: [
             '<div style="position: relative;"><iframe style="aspect-ratio: 16 / 9; width: 100% !important;" src="https://www.youtube-nocookie.com/embed/xWko385Ias0?si=1Lu4YoiM0GUUl19p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>',
         ],
@@ -208,27 +208,51 @@ const contenido = [
     {
         id: "RICORDO DI UN PORTALE INTERDIMENSIONALE",
         categoria: "personales",
-        img: ["./img/1/CDA-FR-0003.jpg"],
-        texto: "Il progetto di intervento sulle immagini é di Lucy Riera, le fotografíe sano conservate presso la Biblioteca di Filosofía dell'Universídad Nacional de Córdoba, Argentina. Le fotografíe oríginali sano datate tra il 1869 e il 1950 grazie al lavoro della rícercatríce Cristina Boixadós e alla collaborazione del Museo del Malcantone e della Fondazione Maglio del Malcantone, Cantan Ticino, Suiza.",
+        img: ["./img/1/1 Aranno-comp.jpg","./img/1/2 ni+¦as-comp.jpg"],
+        texto: 
+        `<p><strong>Espa&ntilde;ol:</strong></p>
+        <p><strong>Recuerdo de un portal interdimensional</strong></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">El proyecto de intervenci&oacute;n sobre im&aacute;genes parte de una intuici&oacute;n y es que &ldquo;las fotograf&iacute;as son portales&rdquo;. El conjunto de fotograf&iacute;as est&aacute; datado entre 1869 y 1930, fue rescatado de la basura gracias al trabajo de la investigadora Cristina Boixad&oacute;s en conjunto con Lucy Riera. Los originales se conserva actualmente en la Biblioteca de Filosof&iacute;a de la Universidad Nacional de C&oacute;rdoba, Argentina. </span></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">El proyecto se activa a trav&eacute;s de la circulaci&oacute;n de postales: im&aacute;genes que se reparten y se env&iacute;an, retomando la l&oacute;gica del intercambio epistolar. Un gesto que insiste en la escritura a mano, en el tiempo diferido del env&iacute;o y en la posibilidad de reactivar v&iacute;nculos a trav&eacute;s de la imagen. Estas postales fueron realizadas en colaboraci&oacute;n con el Museo del Malcantone y la Fondazione Maglio del Malcantone, en el cant&oacute;n del Tesino, Suiza.</span></p>
+        <p><strong>English:</strong></p>
+        <p><strong>Remembrance of an Interdimensional Portal</strong><span style="font-weight: 400;">&nbsp;</span></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">The image intervention project stems from an intuition: &ldquo;photographs are portals.&rdquo; The body of photographs&mdash;dated between 1869 and 1930&mdash;was recovered from the trash through the work of researcher Cristina Boixad&oacute;s in collaboration with Lucy Riera. The originals are currently held at the Library of Philosophy of the National University of C&oacute;rdoba, Argentina.</span></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">The project is activated through the circulation of postcards: images that are distributed and sent, revisiting the logic of epistolary exchange. A gesture that insists on handwriting, on the delayed temporality of sending, and on the possibility of reactivating connections through the image.</span></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">These postcards were produced in collaboration with the Museo del Malcantone and the Fondazione Maglio del Malcantone, in the canton of Ticino, Switzerland.</span></p>`,
         año: "2023",
     },
     {
         id: "FÓSIL",
         categoria: "personales",
-        img: ["./img/2/LUCI2881.jpg"],
+        img: ["./img/2/LUCI2881.jpg","./img/2/1.jpg","./img/2/2.jpg","./img/2/3.jpg"],
 
         video: [
-            '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/730093231?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Video presentación del libro &quot;FÓSIL&quot;"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
-            '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/925117546?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Pasto - Presentación del libro &quot;Fósil&quot;"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
+            '<div style="position: relative;"><iframe style="aspect-ratio: 16 / 9; width: 100% !important;" src="https://www.youtube-nocookie.com/embed/BA6auGWigNE?si=FfHwKvnTgdft6mVe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>',
+            // '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/730093231?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Video presentación del libro &quot;FÓSIL&quot;"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
+            // '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/925117546?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Pasto - Presentación del libro &quot;Fósil&quot;"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
             ],
         texto: [
-            "libro de poesía visual + video poesía",
-            "Fósil es un libro de poesía visual editado por lumpen.editorial",
-            "Fragmento del Prospecto de lectura, de Fisión Ciruja: ",
-            "“¿Qué necesitas saber antes de iniciar la lectura?",
-            "Es necesario despegarse de lo explícito. Abrir el propio yacimiento emocional. Deponer la ansiedad racional para acompañar el desplazamiento del poema. Atenerse a lo mutable. Ajustar las expectativas líricas a la inquietud de un oleaje.”",
-            "En la presentación nos acompañaron con lecturas y comentarios, Lulú Colombo, Natalia Silberleib @unlibroesunlibro y Tenshi de @fisionciruja (quien confecciona el prospecto de lectura que acompaña el poemario). Sonó música seleccionada para la ocasión por Andrea Riera, proyecciones visuales y una pequeña exposición de pinturas y objetos.",
-            "Viernes 18/03/22, 18 hs. en La Libre @lalibrearteylibros Chacabuco 917",
+            `<p><strong>Espa&ntilde;ol:</strong></p>
+            <p><strong>F&oacute;sil</strong><strong><br /></strong><span style="font-weight: 400;">Libro de poes&iacute;a visual + video poes&iacute;a</span><span style="font-weight: 400;">.&nbsp;</span><span style="font-weight: 400;">Editado por lumpen.editorial</span></p>
+            <p><em><span style="font-weight: 400;">F&oacute;sil</span></em><span style="font-weight: 400;"> propone una lectura desplazada, donde lo visual y lo po&eacute;tico se cruzan sin jerarqu&iacute;as. El libro no se organiza construyendo un campo de percepci&oacute;n: ritmos, tensiones, zonas de vac&iacute;o. Un movimiento que requiere otra forma de atenci&oacute;n, m&aacute;s cercana a la deriva que a la interpretaci&oacute;n.</span></p>
+            <p><span style="font-weight: 400;">Como se&ntilde;ala el Prospecto de lectura, de Fisi&oacute;n Ciruja:</span></p>
+            <p><em><span style="font-weight: 400;">&ldquo;&iquest;Qu&eacute; necesitas saber antes de iniciar la lectura?</span></em></p>
+            <p><em><span style="font-weight: 400;">Es necesario despegarse de lo expl&iacute;cito. Abrir el propio yacimiento emocional. Deponer la ansiedad racional para acompa&ntilde;ar el desplazamiento del poema. Atenerse a lo mutable. Ajustar las expectativas l&iacute;ricas a la inquietud de un oleaje.&rdquo;</span></em></p>
+            <p><span style="font-weight: 400;">El proyecto se extiende en una serie de video poemas, donde las im&aacute;genes se activan en el tiempo y contin&uacute;an ese trabajo de desplazamiento y transformaci&oacute;n.</span></p>
+            <p><strong>English:</strong></p>
+            <p><strong>Fossil</strong><strong><br /></strong><span style="font-weight: 400;"> Visual poetry book + video poetry</span><span style="font-weight: 400;">.&nbsp;</span><span style="font-weight: 400;">Published by lumpen.editorial</span></p>
+            <p><em><span style="font-weight: 400;">Fossil</span></em><span style="font-weight: 400;"> proposes a displaced mode of reading, where the visual and the poetic intersect without hierarchy. The book unfolds as a field of perception&mdash;rhythms, tensions, zones of emptiness&mdash;rather than a linear structure. A movement that calls for a different kind of attention, closer to drifting than to interpretation.&nbsp;</span></p>
+            <p><span style="font-weight: 400;">As stated in the Reading Prospectus by Fisi&oacute;n Ciruja:</span></p>
+            <p><em><span style="font-weight: 400;">&ldquo;What do you need to know before beginning the reading?</span></em></p>
+            <p><em><span style="font-weight: 400;">It is necessary to detach from the explicit. To open one&rsquo;s own emotional deposit. To set aside rational anxiety in order to follow the displacement of the poem. To adhere to the mutable. To adjust lyrical expectations to the unrest of a swell.&rdquo;</span></em></p>
+            <p><span style="font-weight: 400;">The project extends into a series of video poems, where images unfold in time and continue this process of displacement and transformation.</span></p>`,
+            // "libro de poesía visual + video poesía",
+            // "Fósil es un libro de poesía visual editado por lumpen.editorial",
+            // "Fragmento del Prospecto de lectura, de Fisión Ciruja: ",
+            // "“¿Qué necesitas saber antes de iniciar la lectura?",
+            // "Es necesario despegarse de lo explícito. Abrir el propio yacimiento emocional. Deponer la ansiedad racional para acompañar el desplazamiento del poema. Atenerse a lo mutable. Ajustar las expectativas líricas a la inquietud de un oleaje.”",
+            // "En la presentación nos acompañaron con lecturas y comentarios, Lulú Colombo, Natalia Silberleib @unlibroesunlibro y Tenshi de @fisionciruja (quien confecciona el prospecto de lectura que acompaña el poemario). Sonó música seleccionada para la ocasión por Andrea Riera, proyecciones visuales y una pequeña exposición de pinturas y objetos.",
+            // "Viernes 18/03/22, 18 hs. en La Libre @lalibrearteylibros Chacabuco 917",
         ],
         año: "2022",
     },
@@ -236,6 +260,7 @@ const contenido = [
         id: "EL GIGANTE",
         categoria: "personales",
         rubro: "cine",
+        img: ["./img/11/1 afiche-el-gigante.jpg"],
         link: [
             {
                 ref: "Facebook",
@@ -258,15 +283,21 @@ const contenido = [
             '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/649711579?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="El gigante"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
         ],
         texto: [
-            "Película, no ficción, 8.22 minutos.",
-            "Registro de una acción poética: Pintar la sombra que el Pehuen arrojará sobre la calle, el día 30 de marzo de 2018, en latitud 34.63351202340709, longitud 58.363833530914675, Tiempo Universal Coordinado.",
-            "Realización: Lucy Riera",
-            "Cámara: Milagros Arias y Lucy Riera",
-            "Producción: Juliana Saravia y Ana Navia",
-            "Con el apoyo de la comunidad del barrio de La Boca, Buenos Aires, Argentina",
-            "Festivales:",
-            "Festival de Cine Anarquista, Argentina, Bs As, 2023.",
-            "MARCO Museo La Boca. Exposición Internacional de Videoarte, Buenos Aires, 2021.",
+            `<p><strong>Espa&ntilde;ol:</strong></p>
+            <p><strong>El Gigante- Sinopsis</strong></p>
+            <p style="text-align: justify;"><span style="font-weight: 400;">Me cortaron las ramas, la frondosidad, mutilaron mis espinas, vinieron desde mis pesadillas con motosierras a despedazar lo poco verde que hab&iacute;a quedado del verano. Se dejaron regadas en el piso las miradas que cruzamos, los amigos del barrio, el barrio cuando estabas.</span></p>
+            <p><strong>English</strong></p>
+            <p><strong>The Giant - Synopsis</strong></p>
+            <p style="text-align: justify;"><strong><br /></strong><span style="font-weight: 400;"> They cut off my branches, my lushness, mutilated my thorns. They came out of my nightmares with chainsaws, tearing apart the little green that remained of summer. The glances we exchanged were left scattered on the ground, the friends from the neighborhood, the neighborhood when you were here.</span></p>`,
+            // "Película, no ficción, 8.22 minutos.",
+            // "Registro de una acción poética: Pintar la sombra que el Pehuen arrojará sobre la calle, el día 30 de marzo de 2018, en latitud 34.63351202340709, longitud 58.363833530914675, Tiempo Universal Coordinado.",
+            // "Realización: Lucy Riera",
+            // "Cámara: Milagros Arias y Lucy Riera",
+            // "Producción: Juliana Saravia y Ana Navia",
+            // "Con el apoyo de la comunidad del barrio de La Boca, Buenos Aires, Argentina",
+            // "Festivales:",
+            // "Festival de Cine Anarquista, Argentina, Bs As, 2023.",
+            // "MARCO Museo La Boca. Exposición Internacional de Videoarte, Buenos Aires, 2021.",
         ],
         año: "2019",
     },
@@ -338,13 +369,42 @@ const contenido = [
     {
         id: "PULSIONARCAICA",
         categoria: "personales",
-        img: ["./img/4/detalle  mujer cabeza de estampida  -.jpg"],
+        img: ["./img/4/detalle  mujer cabeza de estampida  -.jpg","./img/4/1.jpeg","./img/4/2 web.jpg","./img/4/3.jpg","./img/4/4.jpg"],
+        video: [
+            '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/335038540?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Pulsión Arcaica"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
+        ],
         link: [{
-            ref: "vimeo",
-            url: "https://vimeo.com/showcase/10394394",
+            ref: "Rotterdam, Holanda",
+            url: "https://youtu.be/7rKb2OROSv0",
+            ref: "Paris, Canal Saint Martin, Francia",
+            url: "https://www.instagram.com/p/CfU9ptslT6h/",
+            ref: "Valparaíso, Chile",
+            url: "https://vimeo.com/335038540",
+            ref: "Buenos Aires, Argentina, La casa del Bosque",
+            url: "https://youtu.be/EuWQFWmtl1E",
+            ref: "San Luis, Argentina",
+            url: "https://www.instagram.com/p/B3LZDLWAyTX/?utm_source=ig",
+            ref: "La Plata, Bs. As, Argentina",
+            url: "https://www.instagram.com/p/B4BgKTzAJb8/?utm_source=ig",
+            ref: "Video La boca,  Buenos Aires, Argentina",
+            url: "https://vimeo.com/277170291",
+            // ref: "vimeo",
+            // url: "https://vimeo.com/showcase/10394394",
         }],
-        texto: "El gesto de sacar la obra a la calle es para reponerla en su lugar de pertenencia, para que dialogue con el entorno y con las personas. Del mismo modo que las personas en el pasado, pintaban en las cuevas y en los caminos que transitaban. Es por eso que las pegatinas xilográficas de la colección “Pulsión Arcaica” se realizan en la vía pública, durante un ritual que remite a las pinturas en las cavernas, como un llamado a la memoria colectiva. Pulsión Arcaica es un grupo de obras que nace de la necesidad por recuperar y abrir el flujo de la memoria colectiva. Conectar el arte y el saber a través de la intuición y no desde lo ya escrito. Entramar nuestras biografías como mujeres y disidencias en la historia, que recuperamos y reinventamos. Al mismo tiempo que inventamos símbolos, reinventamos la historia. Estos son los registros audiovisuales de las pegatinas en distintos lugares: Paris, Canal Saint Martin, Francia París Montmartre, Francia Valparaíso, Chile San Luis, Argentina La Plata, Bs. As, Argentina Video La boca, Buenos Aires, Argentina",
-        año: "2018 / 2024",
+        texto: 
+        `<p><strong>Espa&ntilde;ol</strong></p>
+        <p><strong>Pulsi&oacute;n Arcaica</strong></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">Las pegatinas xilogr&aacute;ficas de la colecci&oacute;n Pulsi&oacute;n Arcaica se realizan en la v&iacute;a p&uacute;blica como una acci&oacute;n situada, ritual. Un gesto que no busca representar sino activar: una invocaci&oacute;n a la memoria colectiva, a aquello que persiste por fuera de los relatos oficiales. </span></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">El gesto de sacar la obra a la calle no es una exhibici&oacute;n: es una restituci&oacute;n. Devolverla a un espacio donde pueda friccionar con lo que la rodea, donde no est&eacute; aislada sino en contacto. Como las marcas que aparec&iacute;an en las cavernas y caminos, ligadas al tr&aacute;nsito, al cuerpo, a la experiencia. </span></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">Esta pieza nace de la necesidad de reabrir ese flujo. De conectar con formas de conocimiento que no pasan por la escritura, sino por la intuici&oacute;n, la repetici&oacute;n, la marca. De poner en relaci&oacute;n las pictograf&iacute;as originarias con nuestras propias inscripciones en el presente. </span></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">En ese cruce, nuestras biograf&iacute;as como mujeres y disidencias, no aparecen como relato cerrado, sino como trama en construcci&oacute;n. Recuperamos, desviamos, reinventamos. Y en ese mismo gesto, al producir nuevos s&iacute;mbolos, tambi&eacute;n desplazamos la historia. No para fijarla otra vez, sino para volverla inestable, disponible, abierta.&nbsp;</span></p>
+        <p><strong>English</strong></p>
+        <p><strong>Archaic Impulse</strong><span style="font-weight: 400;">&nbsp;</span></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">The woodcut posters from the </span><em><span style="font-weight: 400;">Archaic Impulse</span></em><span style="font-weight: 400;"> collection are produced in public space as a situated, ritual action. A gesture that does not seek to represent but to activate: an invocation of collective memory, of what persists beyond official narratives.</span></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">Bringing the work into the street is not an exhibition&mdash;it is a restitution. A return to a space where it can come into friction with its surroundings, where it is not isolated but in contact. Like the marks that appeared in caves and along paths, tied to movement, the body, and experience.</span></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">This piece emerges from the need to reopen that flow&mdash;to connect with forms of knowledge that do not pass through writing, but through intuition, repetition, and mark-making. To bring early pictographs into relation with our own inscriptions in the present.</span></p>
+        <p style="text-align: justify;"><span style="font-weight: 400;">In that crossing, our biographies&mdash;as women and dissident identities&mdash;do not appear as closed narratives, but as a fabric in the making. We recover, shift, reinvent. And in that same gesture, by producing new symbols, we also displace history&mdash;not to fix it again, but to render it unstable, available, open.</span></p>`,
+        año: "2022",
     },
     {
         id: "LA CAJA DE ARRIBA DEL ROPERO",
@@ -431,18 +491,18 @@ const contenido = [
         ],
         año: "2018",
     },
-    {
-        id: "POESÍA DE LA LUZ CRUDA",
-        categoria: "colectivos",
-        video: [
-            '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/824365577?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Poesía de la luz cruda"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
-        ],
-        texto: [
-            "Milagros Arias y Lucy Riera",
-            "Acción en la Plaza San Martín, Córdoba, Argentina, 2019",
-        ],
-        año: "2019",
-    },
+    // {
+    //     id: "POESÍA DE LA LUZ CRUDA",
+    //     categoria: "colectivos",
+    //     video: [
+    //         '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/824365577?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Poesía de la luz cruda"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
+    //     ],
+    //     texto: [
+    //         "Milagros Arias y Lucy Riera",
+    //         "Acción en la Plaza San Martín, Córdoba, Argentina, 2019",
+    //     ],
+    //     año: "2019",
+    // },
     {
         id: "LABORATORIO DE INVESTIGACIÓN Y CREATIVIDAD",
         categoria: "colectivos",
@@ -544,41 +604,41 @@ const contenido = [
         id: "TERRITORIOS DEL CANTO", 
         categoria: "colectivos",
         img: ["./img/7/LUCI2406.jpg"],
-        texto: ["Recital de cantoras de pueblos originarios en el Auditorio Nacional “Ballena Azul” Centro Cultural Kirchner para el 8M Movemos el mundo.","Ilustraciones y arte para las visuales proyectadas en el recital Buenos Aires"],
+        texto: ["Ilustraciones y arte realizadas para las visuales proyectadas en el  de cantoras de pueblos originarios, en el Auditorio Nacional “Ballena Azul” Centro Cultural Kirchner, para el 8M en 2023 titulado “Movemos el mundo”, Buenos Aires, Argentina."],
         año: "2023",
     },
-    {
-        id: "ADELAS", 
-        video: [
-            '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/925116504?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="ADELAS animación basada en obras de Luis Quesada"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
-        ],
-        categoria: "colectivos",
-        texto: "Animación para el corto “Adelas” Dirigido por Paula Domínguez. La animación es a pedido y está basada en grabados del artista Luis Quesada.",
-        año: "2023",
-    },
-    {
-        id: "VIDEO-LIBRO DE ARTISTA",
-        categoria: "colectivos",
-        video: [
-            '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/925114695?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Video-Libro de artista- Inés Pacciarini"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
-        ],
-        año: "2023",
-    },
+    // {
+    //     id: "ADELAS", 
+    //     video: [
+    //         '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/925116504?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="ADELAS animación basada en obras de Luis Quesada"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
+    //     ],
+    //     categoria: "colectivos",
+    //     texto: "Animación para el corto “Adelas” Dirigido por Paula Domínguez. La animación es a pedido y está basada en grabados del artista Luis Quesada.",
+    //     año: "2023",
+    // },
+    // {
+    //     id: "VIDEO-LIBRO DE ARTISTA",
+    //     categoria: "colectivos",
+    //     video: [
+    //         '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/925114695?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Video-Libro de artista- Inés Pacciarini"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
+    //     ],
+    //     año: "2023",
+    // },
     {
         id: "FUGAS, EL ARTE COMO TRINCHERAS",
         categoria: "colectivos",
         video: [
-            '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://www.youtube.com/embed/HfDMUq0wrt4?si=HzXXDgNR6HMrxVvd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>',
+            '<div style="position: relative;"><iframe style="aspect-ratio: 16 / 9; width: 100% !important;" src="https://www.youtube.com/embed/8VNd25w8HUk?si=3xyvtM11uXGYNQ4o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>',
         ],
         texto: "Acción urgente, México, arte, ilustraciones, diseño y animaciones para serie de 5 capítulos de Caro Reynoso y Emi Martín, sobre arte y disidencia en América Latina. Otros Mundos Cine.",
         año: "2022",
     },
-    {
-        id: "SOBERANÍA ALIMENTARIA Y VISIBILIDAD DE LAS MUJERES CAMPESINAS, ARGENTINA",
-        categoria: "colectivos",
-        texto: "Campaña gráfica del Ministerio de Cultura Nacional y dirigida por Kekena Corvalán.",
-        año: "2021",
-    },
+    // {
+    //     id: "SOBERANÍA ALIMENTARIA Y VISIBILIDAD DE LAS MUJERES CAMPESINAS, ARGENTINA",
+    //     categoria: "colectivos",
+    //     texto: "Campaña gráfica del Ministerio de Cultura Nacional y dirigida por Kekena Corvalán.",
+    //     año: "2021",
+    // },
     {
         id: "II FESTIVAL DE PERFORMANCE POLÍTICA, CHILE",
         categoria: "colectivos",
