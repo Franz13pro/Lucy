@@ -224,7 +224,7 @@ const contenido = [
     {
         id: "FÓSIL",
         categoria: "personales",
-        img: ["./img/2/LUCI2881.jpg","./img/2/1.jpg","./img/2/2.jpg","./img/2/3.jpg"],
+        img: ["./img/2/1.JPG","./img/2/2.JPG","./img/2/3.JPG"],
 
         video: [
             '<div style="position: relative;"><iframe style="aspect-ratio: 16 / 9; width: 100% !important;" src="https://www.youtube-nocookie.com/embed/BA6auGWigNE?si=FfHwKvnTgdft6mVe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>',
